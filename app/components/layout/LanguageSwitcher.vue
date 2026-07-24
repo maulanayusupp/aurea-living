@@ -1,6 +1,9 @@
 <script setup lang="ts">
 // EN/ID switcher. Uses switchLocalePath to preserve the current route when
-// changing language. Renders as a compact segmented control.
+// changing language. Renders as a compact segmented control. `tone="light"`
+// adapts colours for use over a dark hero (see AppHeader).
+withDefaults(defineProps<{ tone?: 'ink' | 'light' }>(), { tone: 'ink' })
+
 const { locale, locales } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
 
@@ -14,7 +17,7 @@ const available = computed(() =>
 </script>
 
 <template>
-  <div class="lang" role="group" aria-label="Language">
+  <div class="lang" :class="`lang--${tone}`" role="group" aria-label="Language">
     <NuxtLink
       v-for="l in available"
       :key="l.code"
@@ -57,6 +60,24 @@ const available = computed(() =>
   &.is-active {
     background: var(--color-emerald-800);
     color: var(--color-on-dark);
+  }
+}
+
+// Over a dark hero.
+.lang--light {
+  border-color: var(--color-line-dark);
+
+  .lang__opt {
+    color: var(--color-on-dark-soft);
+
+    &:hover {
+      color: var(--color-on-dark);
+    }
+
+    &.is-active {
+      background: var(--color-gold-500);
+      color: var(--color-emerald-900);
+    }
   }
 }
 </style>

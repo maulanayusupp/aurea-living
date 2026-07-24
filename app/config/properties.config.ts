@@ -1,15 +1,16 @@
 // =============================================================================
 // Property catalogue — STRUCTURE only. All names/descriptions live in i18n at
-// `properties.items.<id>.*`. Posters are generated SVGs (see scripts/
-// generate-posters.mjs) so the demo is fully self-contained with unique,
-// on-brand imagery. Replace with real photography for production (see TODO.md).
+// `properties.items.<id>.*`. Imagery uses real, self-hosted stock photography
+// in `public/properties/` (downloaded via scripts/fetch-photos.mjs, Unsplash
+// License). These are DEMO stock photos, not the actual properties — replace
+// with official photography for production (see TODO.md / compliance page).
 // =============================================================================
 import type { Property } from '~/types'
 
-/** Build the generated poster paths for a slug (poster + 2 gallery variants). */
-const media = (slug: string) => ({
-  poster: `/posters/${slug}.svg`,
-  gallery: [`/posters/${slug}-b.svg`, `/posters/${slug}-c.svg`],
+/** Map a hero + gallery photo id (public/properties/<id>.jpg) to media paths. */
+const photo = (hero: string, ...gallery: string[]) => ({
+  poster: `/properties/${hero}.jpg`,
+  gallery: gallery.map((g) => `/properties/${g}.jpg`),
 })
 
 export const properties: Property[] = [
@@ -26,7 +27,7 @@ export const properties: Property[] = [
     features: ['pool', 'garden', 'smart-home', 'security', 'view', 'parking'],
     featured: true,
     hue: 158,
-    ...media('serene-villa'),
+    ...photo('p01', 'p02', 'p05'),
   },
   {
     id: 'canopy-villa',
@@ -41,7 +42,7 @@ export const properties: Property[] = [
     features: ['garden', 'pool', 'solar', 'home-office', 'parking'],
     featured: true,
     hue: 142,
-    ...media('canopy-villa'),
+    ...photo('p00', 'p06', 'p11'),
   },
   {
     id: 'lumen-villa',
@@ -56,7 +57,7 @@ export const properties: Property[] = [
     features: ['pool', 'spa', 'smart-home', 'view', 'security', 'concierge'],
     featured: true,
     hue: 172,
-    ...media('lumen-villa'),
+    ...photo('p03', 'p13', 'p08'),
   },
   {
     id: 'ivory-terrace',
@@ -71,7 +72,7 @@ export const properties: Property[] = [
     features: ['garden', 'parking', 'smart-home', 'security'],
     featured: true,
     hue: 44,
-    ...media('ivory-terrace'),
+    ...photo('p19', 'p20', 'p05'),
   },
   {
     id: 'saffron-court',
@@ -86,7 +87,7 @@ export const properties: Property[] = [
     features: ['garden', 'home-office', 'parking', 'solar', 'security'],
     featured: false,
     hue: 38,
-    ...media('saffron-court'),
+    ...photo('p04', 'p21', 'p08'),
   },
   {
     id: 'meridian-garden',
@@ -101,7 +102,7 @@ export const properties: Property[] = [
     features: ['garden', 'gym', 'smart-home', 'parking'],
     featured: false,
     hue: 96,
-    ...media('meridian-garden'),
+    ...photo('p14', 'p11', 'p17'),
   },
   {
     id: 'skyline-crown',
@@ -116,7 +117,7 @@ export const properties: Property[] = [
     features: ['view', 'rooftop', 'concierge', 'smart-home', 'gym', 'security'],
     featured: true,
     hue: 205,
-    ...media('skyline-crown'),
+    ...photo('p13', 'p18', 'p17'),
   },
   {
     id: 'celestia',
@@ -131,7 +132,7 @@ export const properties: Property[] = [
     features: ['view', 'rooftop', 'spa', 'wine-cellar', 'concierge', 'smart-home'],
     featured: false,
     hue: 225,
-    ...media('celestia-penthouse'),
+    ...photo('p18', 'p21', 'p02'),
   },
   {
     id: 'highland-manor',
@@ -146,7 +147,7 @@ export const properties: Property[] = [
     features: ['pool', 'garden', 'wine-cellar', 'security', 'parking', 'view'],
     featured: true,
     hue: 128,
-    ...media('highland-manor'),
+    ...photo('p10', 'p06', 'p13'),
   },
   {
     id: 'riverstone',
@@ -161,7 +162,7 @@ export const properties: Property[] = [
     features: ['pool', 'garden', 'spa', 'gym', 'concierge', 'security'],
     featured: false,
     hue: 188,
-    ...media('riverstone-estate'),
+    ...photo('p09', 'p16', 'p12'),
   },
   {
     id: 'azure-cliff',
@@ -176,7 +177,7 @@ export const properties: Property[] = [
     features: ['pool', 'view', 'smart-home', 'spa', 'security', 'parking'],
     featured: false,
     hue: 196,
-    ...media('azure-cliff-villa'),
+    ...photo('p07', 'p12', 'p02'),
   },
   {
     id: 'palma-grove',
@@ -191,7 +192,7 @@ export const properties: Property[] = [
     features: ['garden', 'pool', 'smart-home', 'parking', 'solar'],
     featured: false,
     hue: 76,
-    ...media('palma-grove'),
+    ...photo('p15', 'p06', 'p20'),
   },
 ]
 

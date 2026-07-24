@@ -12,7 +12,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "favicons": "node scripts/generate-favicons.mjs",
-    "posters": "node scripts/generate-posters.mjs",
+    "photos": "node scripts/fetch-photos.mjs",
     "og": "node scripts/generate-og.mjs",
     "typecheck": "nuxt typecheck"
   },

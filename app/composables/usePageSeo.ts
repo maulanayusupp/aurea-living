@@ -23,6 +23,8 @@ export function usePageSeo(
   const runtime = useRuntimeConfig()
   const siteUrl = runtime.public.siteUrl as string
   const ogImage = computed(() => (image.startsWith('http') ? image : `${siteUrl}${image}`))
+  // Infer the image MIME type from its extension (crawlers use this hint).
+  const imageType = /\.jpe?g$/i.test(image) ? 'image/jpeg' : 'image/png'
 
   useSeoMeta({
     title,
@@ -33,7 +35,7 @@ export function usePageSeo(
     ogImage,
     ogImageWidth: 1200,
     ogImageHeight: 630,
-    ogImageType: 'image/png',
+    ogImageType: imageType,
     ogImageAlt: title,
     twitterCard: 'summary_large_image',
     twitterTitle: title,

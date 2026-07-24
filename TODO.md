@@ -5,8 +5,9 @@ legal pages, and **both** i18n locales as required by the project rules.
 
 ## Next up
 
-- [ ] **Real photography.** Replace generated SVG posters in `public/posters/`
-      with licensed property photos; update `properties.config.ts` media paths.
+- [x] **Real photography.** Uses self-hosted Unsplash stock photos
+      (`public/properties/`, `pnpm photos`). Next: replace the shared stock set
+      with official per-property photography (unique gallery per listing).
 - [x] **Per-property OG images.** `pnpm og` composes poster + brand + name/price
       into `public/og/<slug>.png` for WhatsApp/Instagram link previews.
 - [ ] **Map on detail pages.** Optional static map image or embed per location.

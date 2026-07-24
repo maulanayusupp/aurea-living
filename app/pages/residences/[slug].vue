@@ -26,8 +26,9 @@ const nameKey = `properties.items.${p.id}`
 usePageSeo(
   () => t(`${nameKey}.name`),
   () => t(`${nameKey}.description`),
-  // Rasterized OG card (crawlers don't render SVG posters). See scripts/generate-og.mjs.
-  { image: `/og/${p.slug}.png`, type: 'product' },
+  // Rasterized OG card over the real hero photo (crawlers need a raster image).
+  // See scripts/generate-og.mjs.
+  { image: `/og/${p.slug}.jpg`, type: 'product' },
 )
 
 useSchemaOrg([

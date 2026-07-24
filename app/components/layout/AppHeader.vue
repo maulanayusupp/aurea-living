@@ -1,6 +1,9 @@
 <script setup lang="ts">
-// Sticky header. Transparent over the homepage hero, turns to frosted glass on
-// scroll. Desktop nav + language switcher + WhatsApp CTA; mobile slide-in menu.
+// Sticky header. It is "hero-aware": every page except the homepage opens with a
+// dark emerald PageHero, so while the header floats transparently over that dark
+// hero it must use LIGHT text/logo. On the light homepage hero, or once scrolled
+// (frosted-glass ivory bar), it uses DARK text. Desktop nav + language switcher +
+// WhatsApp CTA; mobile slide-in menu.
 import { getPrimaryNav } from '~/services/content.service'
 
 const { t } = useI18n()
@@ -25,6 +28,12 @@ onBeforeUnmount(() => window.removeEventListener('scroll', onScroll))
 const route = useRoute()
 watch(() => route.fullPath, () => (menuOpen.value = false))
 
+// The homepage (index route) opens with a LIGHT hero; all other pages open with
+// the dark PageHero. When floating (not scrolled, menu closed) over a dark hero,
+// the header switches to light-on-dark styling so it stays legible.
+const isHome = computed(() => (route.name?.toString() ?? '').startsWith('index'))
+const overDark = computed(() => !scrolled.value && !menuOpen.value && !isHome.value)
+
 // Lock body scroll while the mobile menu is open.
 watch(menuOpen, (open) => {
   if (import.meta.client) {
@@ -38,9 +47,12 @@ function target(item: { to: string; hash?: string }) {
 </script>
 
 <template>
-  <header class="header" :class="{ 'is-scrolled': scrolled, 'is-open': menuOpen }">
+  <header
+    class="header"
+    :class="{ 'is-scrolled': scrolled, 'is-open': menuOpen, 'is-over-dark': overDark }"
+  >
     <div class="container-wide header__bar">
-      <BrandLogo tone="ink" />
+      <BrandLogo :tone="overDark ? 'light' : 'ink'" />
 
       <nav class="header__nav" :aria-label="t('nav.primary')">
         <NuxtLink
@@ -54,10 +66,10 @@ function target(item: { to: string; hash?: string }) {
       </nav>
 
       <div class="header__actions">
-        <LanguageSwitcher class="header__lang" />
+        <LanguageSwitcher class="header__lang" :tone="overDark ? 'light' : 'ink'" />
         <BaseButton
           :href="whatsappUrl()"
-          variant="dark"
+          :variant="overDark ? 'primary' : 'dark'"
           size="sm"
           icon="whatsapp"
           class="header__cta"
@@ -110,6 +122,22 @@ function target(item: { to: string; hash?: string }) {
   &.is-open {
     @include glass;
     box-shadow: 0 1px 0 var(--color-line);
+  }
+}
+
+// Floating over a dark hero (inner pages, not scrolled): light-on-dark styling.
+.header.is-over-dark {
+  .header__link {
+    color: var(--color-on-dark-soft);
+
+    &:hover,
+    &.router-link-active {
+      color: var(--color-on-dark);
+    }
+  }
+
+  .header__toggle {
+    color: var(--color-on-dark);
   }
 }
 

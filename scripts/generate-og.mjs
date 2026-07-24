@@ -7,9 +7,10 @@
 // + brand eyebrow, name, location, and price. Text is read from the ID locale
 // (names/locations are locale-agnostic), keeping copy DRY with i18n.
 //
-// Run: pnpm og   (after pnpm posters, since it consumes public/posters/*.svg)
+// Run: pnpm og   (after pnpm photos, since it composites over public/properties/*.jpg)
 //
-// NOTE: keep this property list in sync with app/config/properties.config.ts.
+// NOTE: keep this property list (slug/id/collection/price/hero) in sync with
+// app/config/properties.config.ts.
 // =============================================================================
 import sharp from 'sharp'
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
@@ -17,27 +18,27 @@ import { fileURLToPath } from 'node:url'
 import { dirname, resolve } from 'node:path'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
-const POSTERS = resolve(root, 'public/posters')
+const PROPS = resolve(root, 'public/properties')
 const OUT = resolve(root, 'public/og')
 const LOCALE = resolve(root, 'i18n/locales/id.json')
 
 const W = 1200
 const H = 630
 
-// slug + i18n id + collection + price (IDR). Keep in sync with properties.config.ts.
+// slug + i18n id + collection + price (IDR) + hero photo. Keep in sync with properties.config.ts.
 const items = [
-  { slug: 'serene-villa', id: 'serene-villa', collection: 'villa', price: 14_500_000_000 },
-  { slug: 'canopy-villa', id: 'canopy-villa', collection: 'villa', price: 11_900_000_000 },
-  { slug: 'lumen-villa', id: 'lumen-villa', collection: 'villa', price: 16_800_000_000 },
-  { slug: 'ivory-terrace', id: 'ivory-terrace', collection: 'residence', price: 6_300_000_000 },
-  { slug: 'saffron-court', id: 'saffron-court', collection: 'residence', price: 7_450_000_000 },
-  { slug: 'meridian-garden', id: 'meridian-garden', collection: 'residence', price: 5_900_000_000 },
-  { slug: 'skyline-crown', id: 'skyline-crown', collection: 'penthouse', price: 22_500_000_000 },
-  { slug: 'celestia-penthouse', id: 'celestia', collection: 'penthouse', price: 27_800_000_000 },
-  { slug: 'highland-manor', id: 'highland-manor', collection: 'estate', price: 34_000_000_000 },
-  { slug: 'riverstone-estate', id: 'riverstone', collection: 'estate', price: 41_500_000_000 },
-  { slug: 'azure-cliff-villa', id: 'azure-cliff', collection: 'villa', price: 18_900_000_000 },
-  { slug: 'palma-grove', id: 'palma-grove', collection: 'residence', price: 8_200_000_000 },
+  { slug: 'serene-villa', id: 'serene-villa', collection: 'villa', price: 14_500_000_000, hero: 'p01' },
+  { slug: 'canopy-villa', id: 'canopy-villa', collection: 'villa', price: 11_900_000_000, hero: 'p00' },
+  { slug: 'lumen-villa', id: 'lumen-villa', collection: 'villa', price: 16_800_000_000, hero: 'p03' },
+  { slug: 'ivory-terrace', id: 'ivory-terrace', collection: 'residence', price: 6_300_000_000, hero: 'p19' },
+  { slug: 'saffron-court', id: 'saffron-court', collection: 'residence', price: 7_450_000_000, hero: 'p04' },
+  { slug: 'meridian-garden', id: 'meridian-garden', collection: 'residence', price: 5_900_000_000, hero: 'p14' },
+  { slug: 'skyline-crown', id: 'skyline-crown', collection: 'penthouse', price: 22_500_000_000, hero: 'p13' },
+  { slug: 'celestia-penthouse', id: 'celestia', collection: 'penthouse', price: 27_800_000_000, hero: 'p18' },
+  { slug: 'highland-manor', id: 'highland-manor', collection: 'estate', price: 34_000_000_000, hero: 'p10' },
+  { slug: 'riverstone-estate', id: 'riverstone', collection: 'estate', price: 41_500_000_000, hero: 'p09' },
+  { slug: 'azure-cliff-villa', id: 'azure-cliff', collection: 'villa', price: 18_900_000_000, hero: 'p07' },
+  { slug: 'palma-grove', id: 'palma-grove', collection: 'residence', price: 8_200_000_000, hero: 'p15' },
 ]
 
 const esc = (s) =>
@@ -87,9 +88,9 @@ async function main() {
     const item = locale.properties.items[it.id]
     if (!item) throw new Error(`Missing i18n copy for property id "${it.id}"`)
 
-    const posterSvg = await readFile(resolve(POSTERS, `${it.slug}.svg`))
-    const base = await sharp(posterSvg)
-      .resize(W, H, { fit: 'cover', position: 'top' })
+    const heroPhoto = await readFile(resolve(PROPS, `${it.hero}.jpg`))
+    const base = await sharp(heroPhoto)
+      .resize(W, H, { fit: 'cover', position: 'centre' })
       .toBuffer()
 
     await sharp(base)
@@ -103,8 +104,8 @@ async function main() {
           }),
         },
       ])
-      .png()
-      .toFile(resolve(OUT, `${it.slug}.png`))
+      .jpeg({ quality: 82, mozjpeg: true })
+      .toFile(resolve(OUT, `${it.slug}.jpg`))
     count++
   }
   console.log(`✓ Generated ${count} per-property OG images → public/og/`)

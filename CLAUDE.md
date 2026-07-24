@@ -29,7 +29,7 @@ listing has an *Enquire via WhatsApp* CTA that opens a pre-filled message.
 | SEO        | `@nuxtjs/seo` 5.3.6 (sitemap, robots, schema.org)  |
 | Styling    | **SCSS only** (`sass` 1.101.6), no inline CSS      |
 | Favicons   | `favicons` 7.3.0 (build-time script)               |
-| Posters    | Generated SVG art via `sharp` 0.34.5 + a Node script |
+| Photos     | Real stock photography (Unsplash), self-hosted + optimised via `sharp` 0.34.5 |
 | Node       | ≥ 20.11                                            |
 
 ## Commands
@@ -40,8 +40,8 @@ pnpm build        # production build (validated)
 pnpm preview      # run the built server (node .output/server/index.mjs)
 pnpm generate     # static generation
 pnpm favicons     # regenerate favicons from assets/favicon-source.svg
-pnpm posters      # regenerate the 36 property posters (public/posters/)
-pnpm og           # regenerate per-property OG cards (public/og/) — run after posters
+pnpm photos       # download + optimise property photos (public/properties/) — needs network
+pnpm og           # regenerate per-property OG cards (public/og/) — run after photos
 pnpm typecheck    # vue-tsc type check
 ```
 
@@ -141,15 +141,20 @@ names don't appear in tags: `<BaseButton>`, `<PropertyCard>`, etc.
 
 ## Imagery
 
-- The 36 property posters in `public/posters/` are **generated SVG art**
-  (`scripts/generate-posters.mjs`), unique per residence + mood — self-contained,
-  no external photo dependency. They are **illustrative demo visuals, not real
-  photos** (stated on the compliance page). Replace with official photography for
-  production; keep slugs/hues in the script in sync with `properties.config.ts`.
-- Per-property **OG cards** (`public/og/<slug>.png`, `scripts/generate-og.mjs`)
-  composite the poster + brand + name/location/price for link previews. The
-  script's property list (slug/id/collection/price) must also stay in sync with
+- Property imagery is **real stock photography** self-hosted in
+  `public/properties/p00–p21.jpg` (downloaded + optimised by
+  `scripts/fetch-photos.mjs` from Unsplash, under the Unsplash License; max
+  1600px, mozjpeg). No runtime external image dependency. These are **demo stock
+  photos, not the actual properties** (stated on the compliance page) — replace
+  with official photography for production. `properties.config.ts` maps each
+  listing to a hero + 2 gallery photos via `photo(hero, ...gallery)`.
+- Per-property **OG cards** (`public/og/<slug>.jpg`, `scripts/generate-og.mjs`)
+  composite the real hero photo + brand + name/location/price for link previews
+  (JPEG, ~120–160 KB, under WhatsApp's limit). The script's property list
+  (slug/id/collection/price/**hero**) must stay in sync with
   `properties.config.ts`; names/locations are read from the ID locale.
+- The `Property.hue` field is currently unused by the UI (legacy from the earlier
+  generated posters); safe to reuse for accent tinting later.
 
 ## Rules (do not break)
 
