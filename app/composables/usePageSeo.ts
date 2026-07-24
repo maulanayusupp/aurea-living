@@ -31,9 +31,14 @@ export function usePageSeo(
     ogDescription: description,
     ogType: type as 'website',
     ogImage,
+    ogImageWidth: 1200,
+    ogImageHeight: 630,
+    ogImageType: 'image/png',
+    ogImageAlt: title,
     twitterCard: 'summary_large_image',
     twitterTitle: title,
     twitterDescription: description,
     twitterImage: ogImage,
+    twitterImageAlt: title,
   })
 }

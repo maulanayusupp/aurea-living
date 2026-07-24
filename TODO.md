@@ -7,8 +7,8 @@ legal pages, and **both** i18n locales as required by the project rules.
 
 - [ ] **Real photography.** Replace generated SVG posters in `public/posters/`
       with licensed property photos; update `properties.config.ts` media paths.
-- [ ] **Per-property OG images.** Currently one static `og-image.png`. Consider a
-      build-time script that composes a poster + name for each detail route.
+- [x] **Per-property OG images.** `pnpm og` composes poster + brand + name/price
+      into `public/og/<slug>.png` for WhatsApp/Instagram link previews.
 - [ ] **Map on detail pages.** Optional static map image or embed per location.
 - [ ] **Saved / shortlist.** Let visitors bookmark residences (localStorage), with
       a combined WhatsApp enquiry for the whole shortlist.

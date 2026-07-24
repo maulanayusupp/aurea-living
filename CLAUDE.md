@@ -41,6 +41,7 @@ pnpm preview      # run the built server (node .output/server/index.mjs)
 pnpm generate     # static generation
 pnpm favicons     # regenerate favicons from assets/favicon-source.svg
 pnpm posters      # regenerate the 36 property posters (public/posters/)
+pnpm og           # regenerate per-property OG cards (public/og/) — run after posters
 pnpm typecheck    # vue-tsc type check
 ```
 
@@ -129,9 +130,14 @@ names don't appear in tags: `<BaseButton>`, `<PropertyCard>`, etc.
   detail pages).
 - Sitemap/robots by `@nuxtjs/seo`; dynamic property routes added through
   `server/api/__sitemap__/urls.ts` (i18n adds locale variants + hreflang).
-- Site URL from `NUXT_PUBLIC_SITE_URL` (see `.env.example`).
-- Dynamic OG **image** rendering is disabled (no bundled native renderer); a
-  static `public/og-image.png` is used and OG **meta** is still set per page.
+- Site URL from `NUXT_PUBLIC_SITE_URL` (default `https://aurea-living.vercel.app`).
+- **Link previews (WhatsApp / Instagram / Facebook / X).** `usePageSeo` sets
+  absolute `og:image` (+ `og:image:width/height/type/alt`) and Twitter tags;
+  `@nuxtjs/seo` adds `og:url`, `og:site_name`, `og:locale`, canonical. **og:image
+  must be a raster PNG** — crawlers do not render SVG. Home uses
+  `public/og-image.png`; detail pages use `public/og/<slug>.png` (per-property
+  cards, ~230 KB, under WhatsApp's limit). Dynamic OG-image *rendering* stays
+  disabled (no bundled native renderer); we ship pre-generated PNGs instead.
 
 ## Imagery
 
@@ -140,6 +146,10 @@ names don't appear in tags: `<BaseButton>`, `<PropertyCard>`, etc.
   no external photo dependency. They are **illustrative demo visuals, not real
   photos** (stated on the compliance page). Replace with official photography for
   production; keep slugs/hues in the script in sync with `properties.config.ts`.
+- Per-property **OG cards** (`public/og/<slug>.png`, `scripts/generate-og.mjs`)
+  composite the poster + brand + name/location/price for link previews. The
+  script's property list (slug/id/collection/price) must also stay in sync with
+  `properties.config.ts`; names/locations are read from the ID locale.
 
 ## Rules (do not break)
 

@@ -44,7 +44,7 @@ export default defineNuxtConfig({
 
   // @nuxtjs/seo site-wide identity (sitemap, robots, schema.org).
   site: {
-    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://aurea-living.example.com',
+    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://aurea-living.vercel.app',
     name: 'Aurea Living',
     description:
       'Aurea Living — koleksi villa & residence mewah dengan desain arsitektur, material premium, dan pengalaman hunian yang tenang.',
@@ -62,7 +62,7 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    baseUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://aurea-living.example.com',
+    baseUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://aurea-living.vercel.app',
     strategy: 'prefix_except_default',
     defaultLocale: 'id',
     locales: [
@@ -83,7 +83,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://aurea-living.example.com',
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://aurea-living.vercel.app',
       contactEmail: process.env.NUXT_PUBLIC_CONTACT_EMAIL || 'maulanayusupp@gmail.com',
       whatsapp: process.env.NUXT_PUBLIC_WHATSAPP || '6287822766333',
       contactPhone: process.env.NUXT_PUBLIC_CONTACT_PHONE || '+62 878-2276-6333',
