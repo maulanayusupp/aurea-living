@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img">
+  <defs>
+    <linearGradient id="g_lumenvillab_sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(200 30% 88%)"/>
+      <stop offset="1" stop-color="hsl(46 40% 97%)"/>
+    </linearGradient>
+    <radialGradient id="g_lumenvillab_sun" cx="0.77" cy="0.22" r="0.5">
+      <stop offset="0" stop-color="hsl(46 70% 92% / 0.95)"/>
+      <stop offset="0.4" stop-color="hsl(46 70% 92% / 0.35)"/>
+      <stop offset="1" stop-color="hsl(46 70% 92% / 0)"/>
+    </radialGradient>
+    <linearGradient id="g_lumenvillab_vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(0 0% 0% / 0.18)"/>
+      <stop offset="0.35" stop-color="hsl(0 0% 0% / 0)"/>
+      <stop offset="1" stop-color="hsl(172 40% 6% / 0.35)"/>
+    </linearGradient>
+    <pattern id="g_lumenvillab_grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="hsl(0 0% 100% / 0)"/>
+      <circle cx="1" cy="1" r="0.5" fill="hsl(0 0% 100% / 0.05)"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#g_lumenvillab_sky)"/>
+  <rect width="1200" height="900" fill="url(#g_lumenvillab_sun)"/>
+  <circle cx="925.82" cy="198" r="46" fill="hsl(46 70% 96% / 0.9)"/>
+
+  <path d="M0,900 L0,467.71 L0,428.51 L200,404.42 L400,467.95 L600,505.06 L800,490.17 L1000,415.84 L1200,403.29 L1200,467.71 L1200,900 Z" fill="hsl(172 24% 30% / 0.9)"/><path d="M0,900 L0,539.58 L0,496.84 L200,507.71 L400,570.92 L600,555.34 L800,503.33 L1000,503.34 L1200,524.54 L1200,539.58 L1200,900 Z" fill="hsl(172 24% 25% / 0.9)"/><path d="M0,900 L0,593.46 L0,561.66 L200,612.37 L400,617.66 L600,567.19 L800,547.25 L1000,562.16 L1200,595.82 L1200,593.46 L1200,900 Z" fill="hsl(172 24% 20% / 0.9)"/>
+  <rect x="0" y="648" width="1200" height="252" fill="hsl(172 26% 12%)"/>
+  <g><rect x="348.45" y="491.11" width="466.61" height="156.89" fill="hsl(172 24% 13%)"/><rect x="409.64" y="369.85" width="233.3" height="121.26" fill="hsl(172 22% 16%)"/><rect x="330.45" y="483.11" width="502.61" height="8" fill="hsl(172 30% 22%)"/><rect x="362.45" y="505.11" width="76.52" height="57.45" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="362.45" y="576.55" width="76.52" height="57.45" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="452.98" y="505.11" width="76.52" height="57.45" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="452.98" y="576.55" width="76.52" height="57.45" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="543.5" y="505.11" width="76.52" height="57.45" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="543.5" y="576.55" width="76.52" height="57.45" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="634.02" y="505.11" width="76.52" height="57.45" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="634.02" y="576.55" width="76.52" height="57.45" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="724.54" y="505.11" width="76.52" height="57.45" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="724.54" y="576.55" width="76.52" height="57.45" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="423.64" y="383.85" width="95.65" height="39.63" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="423.64" y="437.48" width="95.65" height="39.63" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="533.29" y="383.85" width="95.65" height="39.63" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="533.29" y="437.48" width="95.65" height="39.63" rx="2" fill="hsl(45 30% 40% / 0.5)"/></g>
+  <g>
+    <rect x="184.85" y="613.9" width="7.08" height="40.1" fill="hsl(172 30% 14%)"/>
+    <circle cx="188.3874282427132" cy="599.75" r="30.66" fill="hsl(172 34% 18%)"/>
+    <circle cx="167.16" cy="613.9" r="21.23" fill="hsl(172 34% 16%)"/>
+    <circle cx="207.26" cy="611.54" r="23.59" fill="hsl(172 34% 17%)"/>
+  </g><g>
+    <rect x="1022.07" y="620.63" width="5.89" height="33.37" fill="hsl(172 30% 14%)"/>
+    <circle cx="1025.0130876060575" cy="608.85" r="25.52" fill="hsl(172 34% 18%)"/>
+    <circle cx="1007.35" cy="620.63" r="17.67" fill="hsl(172 34% 16%)"/>
+    <circle cx="1040.72" cy="618.67" r="19.63" fill="hsl(172 34% 17%)"/>
+  </g><g>
+    <rect x="187.84" y="600.57" width="9.43" height="53.43" fill="hsl(172 30% 14%)"/>
+    <circle cx="192.55498954094946" cy="581.72" r="40.85" fill="hsl(172 34% 18%)"/>
+    <circle cx="164.27" cy="600.57" r="28.28" fill="hsl(172 34% 16%)"/>
+    <circle cx="217.7" cy="597.43" r="31.43" fill="hsl(172 34% 17%)"/>
+  </g><g>
+    <rect x="92.57" y="597.64" width="9.95" height="56.36" fill="hsl(172 30% 14%)"/>
+    <circle cx="97.5459061190486" cy="577.75" r="43.1" fill="hsl(172 34% 18%)"/>
+    <circle cx="67.71" cy="597.64" r="29.84" fill="hsl(172 34% 16%)"/>
+    <circle cx="124.07" cy="594.33" r="33.15" fill="hsl(172 34% 17%)"/>
+  </g>
+  <g>
+    <rect x="0" y="656" width="1200" height="244" fill="hsl(172 30% 10%)"/>
+    <ellipse cx="600" cy="726" rx="504" ry="70" fill="hsl(172 45% 30% / 0.9)"/>
+    <rect x="192" y="690" width="816" height="10" fill="hsl(46 70% 70% / 0.55)" opacity="0.7"/>
+    <rect x="264" y="720" width="672" height="6" fill="hsl(46 70% 70% / 0.55)" opacity="0.5"/>
+  </g>
+
+  <rect width="1200" height="900" fill="url(#g_lumenvillab_grain)"/>
+  <rect width="1200" height="900" fill="url(#g_lumenvillab_vig)"/>
+</svg>

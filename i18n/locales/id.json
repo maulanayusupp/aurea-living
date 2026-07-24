@@ -1,0 +1,488 @@
+{
+  "meta": {
+    "tagline": "Koleksi Villa & Residence Mewah",
+    "home": {
+      "title": "Hunian Mewah dengan Jiwa",
+      "description": "Aurea Living menghadirkan koleksi villa, residence, penthouse, dan estate pilihan dengan arsitektur penuh perhatian, material premium, dan ketenangan yang jarang ditemukan."
+    },
+    "residences": {
+      "title": "Koleksi Hunian",
+      "description": "Jelajahi 12 hunian pilihan Aurea Living. Saring berdasarkan koleksi, harga, dan jumlah kamar, lalu ajukan pertanyaan langsung melalui WhatsApp."
+    },
+    "about": {
+      "title": "Tentang Kami",
+      "description": "Filosofi Aurea Living: merancang hunian yang jujur, tahan waktu, dan menghormati penghuninya serta lingkungannya."
+    },
+    "contact": {
+      "title": "Hubungi Kami",
+      "description": "Bicaralah dengan tim Aurea Living melalui WhatsApp, telepon, atau email. Kami senang membantu Anda menemukan hunian yang tepat."
+    },
+    "compliance": {
+      "title": "Kepatuhan & Keterbukaan",
+      "description": "Bagaimana Aurea Living menyajikan informasi, menangani data, dan menjaga keterbukaan yang jujur tanpa klaim berlebihan."
+    },
+    "privacy": {
+      "title": "Kebijakan Privasi",
+      "description": "Bagaimana data Anda ditangani ketika menghubungi Aurea Living."
+    },
+    "terms": {
+      "title": "Syarat Penggunaan",
+      "description": "Ketentuan penggunaan situs Aurea Living."
+    }
+  },
+  "nav": {
+    "primary": "Navigasi utama",
+    "residences": "Hunian",
+    "about": "Tentang",
+    "experience": "Pengalaman",
+    "contact": "Kontak",
+    "compliance": "Kepatuhan",
+    "privacy": "Privasi",
+    "terms": "Syarat",
+    "open": "Buka menu",
+    "close": "Tutup menu"
+  },
+  "cta": {
+    "whatsapp": "Chat WhatsApp",
+    "consult": "Konsultasi",
+    "explore": "Jelajahi Koleksi",
+    "details": "Detail",
+    "inquire": "Tanya",
+    "inquireWhatsApp": "Tanya via WhatsApp",
+    "call": "Telepon",
+    "email": "Email",
+    "talkAdvisor": "Bicara dengan Penasihat",
+    "contactUs": "Hubungi Kami",
+    "viewAll": "Lihat semua"
+  },
+  "a11y": {
+    "skip": "Lompat ke konten utama"
+  },
+  "hero": {
+    "eyebrow": "Villa · Residence · Penthouse · Estate",
+    "titleLead": "Rumah yang",
+    "titleEm": "tenang,",
+    "titleTail": "dirancang untuk hidup yang utuh.",
+    "lead": "Aurea Living merawat koleksi hunian pilihan di Bandung — setiap ruang dirancang dengan cahaya, material, dan proporsi yang dipikirkan matang.",
+    "facts": {
+      "collections": "Koleksi",
+      "residences": "Hunian",
+      "city": "Kota"
+    },
+    "showcaseNav": "Pilih hunian unggulan",
+    "scroll": "Gulir ke bawah"
+  },
+  "stats": {
+    "residences": "Hunian pilihan",
+    "collections": "Koleksi",
+    "area": "Rata-rata luas bangunan (ratus m²)",
+    "since": "Berkarya sejak"
+  },
+  "collection": {
+    "eyebrow": "Koleksi Unggulan",
+    "title": "Hunian yang layak dilihat lebih dekat",
+    "lead": "Pilihan hunian dengan karakter kuat — dari villa berkebun hingga penthouse dengan panorama kota.",
+    "viewAll": "Lihat seluruh koleksi"
+  },
+  "amenities": {
+    "eyebrow": "Pengalaman Aurea",
+    "title": "Detail yang terasa setiap hari",
+    "lead": "Bukan sekadar fasilitas, tetapi cara hidup yang lebih tenang dan bermakna.",
+    "architecture": {
+      "title": "Arsitektur yang dipikirkan",
+      "desc": "Denah yang mengalir, cahaya alami yang melimpah, dan proporsi ruang yang nyaman untuk keseharian."
+    },
+    "materials": {
+      "title": "Material premium",
+      "desc": "Pemilihan material yang tahan waktu dan penyelesaian yang rapi pada setiap sudut."
+    },
+    "wellness": {
+      "title": "Ruang & kebun",
+      "desc": "Area hijau, ventilasi silang, dan ruang terbuka yang membuat rumah terasa lapang dan sehat."
+    },
+    "smart": {
+      "title": "Rumah pintar",
+      "desc": "Pencahayaan, keamanan, dan kenyamanan yang dapat diatur dengan mudah pada hunian tertentu."
+    },
+    "privacy": {
+      "title": "Privasi & keamanan",
+      "desc": "Tata letak yang menjaga privasi penghuni serta akses masuk yang terkontrol."
+    },
+    "concierge": {
+      "title": "Pendampingan personal",
+      "desc": "Tim kami mendampingi Anda mulai dari kunjungan hingga proses selanjutnya, dengan komunikasi yang jelas."
+    }
+  },
+  "journey": {
+    "eyebrow": "Perjalanan Anda",
+    "title": "Langkah yang sederhana dan transparan",
+    "lead": "Kami menjaga setiap tahap tetap jelas. Anda selalu tahu apa yang terjadi selanjutnya — tanpa tekanan.",
+    "discover": {
+      "title": "Temukan",
+      "desc": "Jelajahi koleksi secara daring dan pilih hunian yang paling sesuai dengan kebutuhan Anda."
+    },
+    "visit": {
+      "title": "Kunjungi",
+      "desc": "Atur jadwal kunjungan langsung atau tur virtual bersama penasihat kami."
+    },
+    "reserve": {
+      "title": "Diskusikan",
+      "desc": "Kami membahas detail, ketersediaan, dan opsi yang tersedia secara terbuka dan jujur."
+    },
+    "move": {
+      "title": "Lanjutkan",
+      "desc": "Setelah semua jelas, kami dampingi Anda menuju langkah berikutnya dengan tenang."
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Kesan (contoh)",
+    "title": "Apa yang membuat sebuah rumah terasa benar",
+    "items": {
+      "nadia": {
+        "name": "Nadia",
+        "role": "Calon penghuni",
+        "quote": "Prosesnya jelas dan tidak menekan. Saya merasa benar-benar didengar saat menyampaikan kebutuhan keluarga."
+      },
+      "reza": {
+        "name": "Reza",
+        "role": "Pengunjung",
+        "quote": "Perhatian pada detail material dan cahaya terlihat nyata ketika berkunjung langsung."
+      },
+      "sari": {
+        "name": "Sari",
+        "role": "Calon penghuni",
+        "quote": "Informasi yang diberikan terbuka dan konsisten, dari website sampai kunjungan."
+      }
+    }
+  },
+  "ctaBand": {
+    "eyebrow": "Mari mulai",
+    "title": "Temukan hunian yang terasa",
+    "titleEm": "seperti rumah.",
+    "lead": "Ceritakan kebutuhan Anda melalui WhatsApp. Tim kami akan membantu memilih hunian yang paling tepat — dengan sabar dan tanpa tekanan.",
+    "contactUs": "Hubungi Kami"
+  },
+  "footer": {
+    "blurb": "Aurea Living merawat koleksi villa & residence mewah di Bandung, dengan fokus pada arsitektur yang jujur dan hunian yang tahan waktu.",
+    "explore": "Jelajahi",
+    "connect": "Terhubung",
+    "rights": "Hak cipta dilindungi.",
+    "disclaimer": "Aurea Living adalah brand demonstrasi. Nama, gambar, dan angka bersifat ilustratif dan bukan penawaran resmi."
+  },
+  "contact": {
+    "eyebrow": "Kontak",
+    "title": "Mari berbicara",
+    "lead": "Kami di sini untuk membantu Anda menemukan hunian yang tepat. Hubungi kami melalui kanal favorit Anda.",
+    "reachTitle": "Kanal kontak",
+    "reachLead": "WhatsApp adalah cara tercepat untuk terhubung dengan tim kami.",
+    "hours": "Senin–Sabtu, 09.00–18.00 WIB",
+    "formTitle": "Kirim pertanyaan",
+    "formLead": "Isi formulir dan kami akan meneruskannya melalui WhatsApp atau email pilihan Anda.",
+    "channels": {
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp",
+      "phone": "Telepon",
+      "email": "Email",
+      "location": "Lokasi"
+    },
+    "wa": {
+      "general": "Halo Aurea Living, saya ingin mengetahui lebih lanjut tentang koleksi hunian Anda.",
+      "inquiry": "Halo Aurea Living, saya tertarik dengan {name} ({collection}). Boleh saya mendapat informasi lebih lengkap? {url}"
+    },
+    "email": {
+      "subject": "Pertanyaan tentang {name}"
+    }
+  },
+  "contactForm": {
+    "name": "Nama",
+    "namePlaceholder": "Nama lengkap Anda",
+    "phone": "Nomor telepon",
+    "phonePlaceholder": "Opsional",
+    "interest": "Tertarik pada",
+    "message": "Pesan",
+    "messagePlaceholder": "Ceritakan kebutuhan hunian Anda…",
+    "error": "Mohon isi nama dan pesan Anda terlebih dahulu.",
+    "sendWhatsApp": "Kirim via WhatsApp",
+    "sendEmail": "Kirim via Email",
+    "privacyNote": "Dengan mengirim, Anda akan diarahkan ke WhatsApp atau aplikasi email. Kami tidak menyimpan data di situs ini.",
+    "template": "Halo Aurea Living,\n\nNama: {name}\nTelepon: {phone}\nTertarik pada: {interest}\n\n{message}",
+    "emailSubject": "Pertanyaan dari situs Aurea Living"
+  },
+  "properties": {
+    "empty": "Tidak ada hunian yang cocok dengan filter Anda. Coba longgarkan pilihan.",
+    "collections": {
+      "villa": "Villa",
+      "residence": "Residence",
+      "penthouse": "Penthouse",
+      "estate": "Estate"
+    },
+    "status": {
+      "available": "Tersedia",
+      "ready": "Siap huni",
+      "offplan": "Pra-bangun",
+      "sold": "Terjual"
+    },
+    "spec": {
+      "beds": "Kamar",
+      "baths": "K. Mandi"
+    },
+    "features": {
+      "pool": "Kolam renang pribadi",
+      "garden": "Kebun & lanskap",
+      "smart-home": "Sistem rumah pintar",
+      "security": "Keamanan 24 jam",
+      "view": "Panorama terbuka",
+      "parking": "Parkir luas",
+      "solar": "Panel surya",
+      "home-office": "Ruang kerja",
+      "spa": "Area spa & wellness",
+      "concierge": "Layanan pendamping",
+      "gym": "Ruang kebugaran",
+      "rooftop": "Teras atap",
+      "wine-cellar": "Ruang penyimpanan anggur"
+    },
+    "items": {
+      "serene-villa": {
+        "name": "Serene Villa",
+        "location": "Dago Pakar, Bandung",
+        "description": "Villa empat kamar dengan kolam pribadi dan kebun yang tenang, dirancang mengikuti kontur alami lahan.",
+        "detail": "Ruang hidup terbuka mengalir menuju teras dan kolam, sementara kamar utama menghadap kebun yang rindang. Cahaya pagi masuk lembut melalui bukaan yang lebar."
+      },
+      "canopy-villa": {
+        "name": "Canopy Villa",
+        "location": "Ciumbuleuit, Bandung",
+        "description": "Villa tiga kamar yang dinaungi pepohonan, dengan panel surya dan ruang kerja yang tenang.",
+        "detail": "Dirancang untuk hidup berkelanjutan, hunian ini memadukan ventilasi silang, cahaya alami, dan kebun yang menyatu dengan interior."
+      },
+      "lumen-villa": {
+        "name": "Lumen Villa",
+        "location": "Punclut, Bandung",
+        "description": "Villa dengan area spa pribadi dan panorama perbukitan, cocok untuk ketenangan sekaligus menjamu tamu.",
+        "detail": "Material hangat dan pencahayaan yang lembut menciptakan suasana menenangkan. Area spa dan kolam menjadi pusat relaksasi keluarga."
+      },
+      "ivory-terrace": {
+        "name": "Ivory Terrace",
+        "location": "Setiabudi, Bandung",
+        "description": "Residence tiga kamar dengan teras hijau dan sistem rumah pintar, ringkas namun terasa lapang.",
+        "detail": "Denah efisien memaksimalkan setiap meter. Teras menjadi ruang tambahan untuk bersantai di sore hari."
+      },
+      "saffron-court": {
+        "name": "Saffron Court",
+        "location": "Cigadung, Bandung",
+        "description": "Residence dengan kebun dalam, ruang kerja, dan panel surya untuk hidup yang lebih efisien.",
+        "detail": "Cocok bagi keluarga muda yang menghargai kenyamanan sekaligus kesadaran energi."
+      },
+      "meridian-garden": {
+        "name": "Meridian Garden",
+        "location": "Antapani, Bandung",
+        "description": "Residence dua kamar dengan taman bersama dan ruang kebugaran, pilihan pra-bangun yang tenang.",
+        "detail": "Sebagai unit pra-bangun, denah dan penyelesaian masih dapat didiskusikan sesuai kebutuhan Anda."
+      },
+      "skyline-crown": {
+        "name": "Skyline Crown",
+        "location": "Pusat Kota, Bandung",
+        "description": "Penthouse dengan teras atap dan panorama kota, dilengkapi layanan pendamping dan keamanan.",
+        "detail": "Ruang tinggal yang lapang membuka pemandangan kota sepanjang hari. Teras atap ideal untuk menjamu tamu di malam hari."
+      },
+      "celestia": {
+        "name": "Celestia Penthouse",
+        "location": "Pusat Kota, Bandung",
+        "description": "Penthouse empat kamar dengan area spa, ruang anggur, dan teras atap yang megah.",
+        "detail": "Puncak dari koleksi kota kami — dirancang untuk momen istimewa dengan detail penyelesaian terbaik."
+      },
+      "highland-manor": {
+        "name": "Highland Manor",
+        "location": "Lembang, Bandung",
+        "description": "Estate lima kamar dengan lahan luas, kolam, kebun, dan ruang anggur di ketinggian yang sejuk.",
+        "detail": "Estate ini memberi ruang untuk keluarga besar dan tamu, dengan kebun luas dan udara pegunungan yang segar."
+      },
+      "riverstone": {
+        "name": "Riverstone Estate",
+        "location": "Maribaya, Bandung",
+        "description": "Estate enam kamar dengan area spa, kebugaran, dan kebun luas — proyek pra-bangun eksklusif.",
+        "detail": "Sebagai proyek pra-bangun, Riverstone menawarkan fleksibilitas denah dan penyelesaian sesuai preferensi Anda."
+      },
+      "azure-cliff": {
+        "name": "Azure Cliff Villa",
+        "location": "Dago Atas, Bandung",
+        "description": "Villa di tepi tebing dengan panorama lepas, kolam, dan area spa yang menyatu dengan pemandangan.",
+        "detail": "Posisi di ketinggian memberi panorama luas yang berubah sepanjang hari, dari kabut pagi hingga cahaya senja."
+      },
+      "palma-grove": {
+        "name": "Palma Grove",
+        "location": "Sukajadi, Bandung",
+        "description": "Residence tiga kamar dengan kolam kecil, kebun, dan panel surya di lingkungan yang asri.",
+        "detail": "Perpaduan kenyamanan keluarga dan efisiensi, dikelilingi lingkungan yang tenang dan hijau."
+      }
+    }
+  },
+  "filters": {
+    "collection": "Koleksi",
+    "all": "Semua",
+    "beds": "Kamar tidur",
+    "bedsDown": "Kurangi kamar",
+    "bedsUp": "Tambah kamar",
+    "any": "Semua",
+    "maxPrice": "Harga hingga",
+    "sort": "Urutkan",
+    "sortOptions": {
+      "featured": "Unggulan",
+      "priceAsc": "Harga terendah",
+      "priceDesc": "Harga tertinggi",
+      "areaDesc": "Luas terbesar"
+    },
+    "showing": "Menampilkan {count} hunian",
+    "reset": "Atur ulang"
+  },
+  "residences": {
+    "eyebrow": "Koleksi",
+    "title": "Temukan hunian Anda",
+    "lead": "Dua belas hunian pilihan lintas empat koleksi. Saring sesuai kebutuhan, lalu ajukan pertanyaan langsung melalui WhatsApp."
+  },
+  "detail": {
+    "back": "Kembali ke koleksi",
+    "about": "Tentang hunian ini",
+    "features": "Fasilitas & keunggulan",
+    "related": "Hunian serupa",
+    "relatedEyebrow": "Anda mungkin suka",
+    "priceNote": "Harga indikatif. Detail final dibahas bersama penasihat.",
+    "built": "Luas bangunan",
+    "land": "Luas lahan",
+    "advisor": "Respons cepat melalui WhatsApp di jam kerja · {phone}"
+  },
+  "about": {
+    "eyebrow": "Tentang Aurea Living",
+    "title": "Rumah yang jujur, dibuat untuk bertahan",
+    "lead": "Kami percaya rumah terbaik adalah yang tenang, fungsional, dan menghormati orang serta lingkungannya.",
+    "statement": "Kami merancang lebih sedikit, tetapi lebih baik — hunian yang matang dalam detail dan tahan terhadap waktu.",
+    "body": "Aurea Living berfokus pada kualitas ketimbang kuantitas. Setiap hunian dalam koleksi kami dipilih dan disusun dengan perhatian pada cahaya, material, dan proporsi. Kami mengutamakan komunikasi yang terbuka dan proses yang tidak menekan, sehingga Anda dapat mengambil keputusan dengan tenang dan percaya diri.",
+    "valuesEyebrow": "Prinsip Kami",
+    "valuesTitle": "Hal yang kami pegang",
+    "values": {
+      "craft": {
+        "title": "Ketelitian",
+        "desc": "Perhatian pada detail kecil yang membuat perbedaan besar dalam keseharian."
+      },
+      "transparency": {
+        "title": "Keterbukaan",
+        "desc": "Informasi yang jujur dan konsisten, tanpa klaim berlebihan."
+      },
+      "stewardship": {
+        "title": "Tanggung jawab",
+        "desc": "Menghormati lingkungan dan lingkungan sekitar hunian."
+      },
+      "service": {
+        "title": "Pendampingan",
+        "desc": "Mendampingi Anda dengan sabar di setiap tahap perjalanan."
+      }
+    }
+  },
+  "legal": {
+    "updated": "Diperbarui Juli 2026"
+  },
+  "compliance": {
+    "eyebrow": "Kepatuhan",
+    "title": "Keterbukaan & kepatuhan",
+    "lead": "Kami berkomitmen menyajikan informasi secara jujur dan menghindari klaim yang tidak dapat kami pertanggungjawabkan.",
+    "sections": {
+      "overview": {
+        "title": "Ringkasan",
+        "body": "Halaman ini menjelaskan bagaimana kami menyajikan informasi, menangani pertanyaan, dan menjaga keterbukaan.\nAurea Living adalah brand demonstrasi. Nama, gambar, harga, dan angka pada situs ini bersifat ilustratif dan bukan penawaran resmi atau perjanjian yang mengikat."
+      },
+      "disclosure": {
+        "title": "Keterbukaan informasi",
+        "body": "Kami tidak menampilkan sertifikasi, penghargaan, atau afiliasi yang tidak kami miliki.\nSpesifikasi, luas, dan harga dapat berbeda dari kondisi sebenarnya dan harus dikonfirmasi langsung sebelum keputusan apa pun diambil."
+      },
+      "data": {
+        "title": "Penanganan data",
+        "body": "Situs ini tidak menyimpan data pribadi Anda di server kami. Ketika Anda mengirim pertanyaan, informasi diteruskan langsung melalui WhatsApp atau email pilihan Anda.\nRincian selengkapnya tersedia pada halaman Kebijakan Privasi."
+      },
+      "payments": {
+        "title": "Pertanyaan & transaksi",
+        "body": "Situs ini tidak memproses pembayaran daring. Semua pertanyaan dan pembahasan komersial dilakukan langsung melalui WhatsApp, telepon, atau email bersama tim kami.\nSetiap langkah transaksi dilakukan secara langsung dan transparan."
+      },
+      "imagery": {
+        "title": "Gambar & visual",
+        "body": "Gambar hunian pada situs ini merupakan ilustrasi visual yang dihasilkan untuk keperluan demonstrasi, bukan foto properti nyata.\nUntuk penggunaan produksi, gambar akan digantikan dengan fotografi resmi properti."
+      },
+      "contact": {
+        "title": "Menghubungi kami",
+        "body": "Untuk pertanyaan terkait kepatuhan atau informasi pada situs ini, silakan hubungi kami melalui kanal yang tersedia di halaman Kontak."
+      }
+    }
+  },
+  "privacy": {
+    "eyebrow": "Privasi",
+    "title": "Kebijakan privasi",
+    "lead": "Penjelasan singkat dan jujur tentang bagaimana data Anda ditangani ketika berinteraksi dengan situs ini.",
+    "sections": {
+      "collect": {
+        "title": "Data yang kami terima",
+        "body": "Situs ini tidak memiliki formulir yang menyimpan data ke server. Ketika Anda menggunakan formulir kontak, informasi yang Anda isi disusun menjadi pesan dan dikirim melalui WhatsApp atau aplikasi email Anda sendiri.\nDengan demikian, data hanya berpindah melalui kanal yang Anda pilih."
+      },
+      "use": {
+        "title": "Penggunaan data",
+        "body": "Informasi yang Anda kirimkan melalui WhatsApp atau email digunakan semata-mata untuk menanggapi pertanyaan Anda dan membantu proses pemilihan hunian."
+      },
+      "share": {
+        "title": "Berbagi data",
+        "body": "Kami tidak menjual atau membagikan informasi Anda kepada pihak ketiga untuk tujuan pemasaran. Komunikasi tetap berada di antara Anda dan tim kami."
+      },
+      "cookies": {
+        "title": "Cookie",
+        "body": "Situs menggunakan cookie teknis minimal, misalnya untuk mengingat preferensi bahasa Anda. Kami tidak menggunakan cookie iklan pihak ketiga."
+      },
+      "rights": {
+        "title": "Hak Anda",
+        "body": "Karena kami tidak menyimpan data Anda di situs ini, Anda memegang kendali penuh atas percakapan di WhatsApp atau email. Anda dapat menghapusnya kapan saja dari perangkat Anda."
+      },
+      "contact": {
+        "title": "Pertanyaan privasi",
+        "body": "Jika ada pertanyaan mengenai privasi, silakan hubungi kami melalui kanal pada halaman Kontak."
+      }
+    }
+  },
+  "terms": {
+    "eyebrow": "Syarat",
+    "title": "Syarat penggunaan",
+    "lead": "Ketentuan penggunaan situs Aurea Living.",
+    "sections": {
+      "use": {
+        "title": "Penggunaan situs",
+        "body": "Dengan mengakses situs ini, Anda setuju menggunakannya untuk tujuan informasi yang wajar. Konten disediakan sebagaimana adanya untuk keperluan demonstrasi."
+      },
+      "listings": {
+        "title": "Informasi hunian",
+        "body": "Detail hunian, harga, luas, dan gambar bersifat ilustratif dan dapat berubah. Tidak ada bagian dari situs ini yang merupakan penawaran resmi atau perjanjian yang mengikat."
+      },
+      "inquiries": {
+        "title": "Pertanyaan",
+        "body": "Pertanyaan yang dikirim melalui situs diteruskan melalui WhatsApp atau email. Respons diberikan sesuai kesediaan tim pada jam kerja."
+      },
+      "ip": {
+        "title": "Kekayaan intelektual",
+        "body": "Nama, desain, dan materi pada situs ini digunakan untuk keperluan demonstrasi. Merek atau nama pihak lain adalah milik pemiliknya masing-masing."
+      },
+      "liability": {
+        "title": "Batas tanggung jawab",
+        "body": "Kami berupaya menjaga akurasi informasi, namun tidak menjamin bahwa seluruh konten bebas dari kesalahan. Keputusan sebaiknya diambil setelah konfirmasi langsung."
+      },
+      "law": {
+        "title": "Hukum yang berlaku",
+        "body": "Ketentuan ini diatur sesuai hukum yang berlaku di Indonesia."
+      }
+    }
+  },
+  "error": {
+    "notFound": {
+      "title": "Halaman tidak ditemukan",
+      "lead": "Halaman yang Anda cari mungkin telah dipindahkan atau tidak tersedia."
+    },
+    "generic": {
+      "title": "Terjadi kesalahan",
+      "lead": "Maaf, terjadi kendala yang tidak terduga. Silakan coba lagi."
+    },
+    "home": "Kembali ke beranda",
+    "browse": "Lihat koleksi"
+  }
+}

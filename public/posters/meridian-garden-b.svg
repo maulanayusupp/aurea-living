@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img">
+  <defs>
+    <linearGradient id="g_meridiangardenb_sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(200 30% 88%)"/>
+      <stop offset="1" stop-color="hsl(46 40% 97%)"/>
+    </linearGradient>
+    <radialGradient id="g_meridiangardenb_sun" cx="0.63" cy="0.22" r="0.5">
+      <stop offset="0" stop-color="hsl(46 70% 92% / 0.95)"/>
+      <stop offset="0.4" stop-color="hsl(46 70% 92% / 0.35)"/>
+      <stop offset="1" stop-color="hsl(46 70% 92% / 0)"/>
+    </radialGradient>
+    <linearGradient id="g_meridiangardenb_vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(0 0% 0% / 0.18)"/>
+      <stop offset="0.35" stop-color="hsl(0 0% 0% / 0)"/>
+      <stop offset="1" stop-color="hsl(96 40% 6% / 0.35)"/>
+    </linearGradient>
+    <pattern id="g_meridiangardenb_grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="hsl(0 0% 100% / 0)"/>
+      <circle cx="1" cy="1" r="0.5" fill="hsl(0 0% 100% / 0.05)"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#g_meridiangardenb_sky)"/>
+  <rect width="1200" height="900" fill="url(#g_meridiangardenb_sun)"/>
+  <circle cx="755.31" cy="198" r="46" fill="hsl(46 70% 96% / 0.9)"/>
+
+  <path d="M0,900 L0,462.02 L0,442.38 L200,402.23 L400,459.37 L600,487.08 L800,461.68 L1000,435.68 L1200,426.2 L1200,462.02 L1200,900 Z" fill="hsl(96 24% 30% / 0.9)"/><path d="M0,900 L0,525.07 L0,488.22 L200,503.91 L400,528.15 L600,541.71 L800,507.55 L1000,481.39 L1200,535.97 L1200,525.07 L1200,900 Z" fill="hsl(96 24% 25% / 0.9)"/><path d="M0,900 L0,599.31 L0,581.96 L200,615.13 L400,611.96 L600,581.21 L800,555.1 L1000,573.63 L1200,594 L1200,599.31 L1200,900 Z" fill="hsl(96 24% 20% / 0.9)"/>
+  <rect x="0" y="648" width="1200" height="252" fill="hsl(96 26% 12%)"/>
+  <g><rect x="356.35" y="486.06" width="432.56" height="161.94" fill="hsl(96 24% 13%)"/><rect x="416.35" y="352.08" width="216.28" height="133.98" fill="hsl(96 22% 16%)"/><rect x="338.35" y="478.06" width="468.56" height="8" fill="hsl(96 30% 22%)"/><rect x="370.35" y="500.06" width="69.71" height="59.97" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="370.35" y="574.03" width="69.71" height="59.97" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="454.07" y="500.06" width="69.71" height="59.97" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="454.07" y="574.03" width="69.71" height="59.97" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="537.78" y="500.06" width="69.71" height="59.97" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="537.78" y="574.03" width="69.71" height="59.97" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="621.49" y="500.06" width="69.71" height="59.97" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="621.49" y="574.03" width="69.71" height="59.97" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="705.21" y="500.06" width="69.71" height="59.97" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="705.21" y="574.03" width="69.71" height="59.97" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="430.35" y="366.08" width="87.14" height="45.99" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="430.35" y="426.07" width="87.14" height="45.99" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="531.49" y="366.08" width="87.14" height="45.99" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="531.49" y="426.07" width="87.14" height="45.99" rx="2" fill="hsl(45 30% 40% / 0.5)"/></g>
+  <path d="M1001.4776879083365,654 q10.153669719770551,-67.691131465137 3.3845565732568503,-135.382262930274" stroke="hsl(96 30% 14%)" stroke-width="6.769113146513701" fill="none" stroke-linecap="round"/><path d="M1004.86,518.62 Q994.09,488.16 986.71,452.28" stroke="hsl(96 34% 20%)" stroke-width="4.399923545233905" fill="none" stroke-linecap="round"/><path d="M1004.86,518.62 Q1014.42,488.16 1027.36,453.01" stroke="hsl(96 34% 20%)" stroke-width="4.399923545233905" fill="none" stroke-linecap="round"/><path d="M1004.86,518.62 Q1032.52,488.16 1063.56,466.74" stroke="hsl(96 34% 20%)" stroke-width="4.399923545233905" fill="none" stroke-linecap="round"/><path d="M1004.86,518.62 Q1044.81,488.16 1088.14,490.74" stroke="hsl(96 34% 20%)" stroke-width="4.399923545233905" fill="none" stroke-linecap="round"/><path d="M1004.86,518.62 Q1048.85,488.16 1096.22,520.27" stroke="hsl(96 34% 20%)" stroke-width="4.399923545233905" fill="none" stroke-linecap="round"/><path d="M1004.86,518.62 Q1043.84,488.16 1086.2,549.47" stroke="hsl(96 34% 20%)" stroke-width="4.399923545233905" fill="none" stroke-linecap="round"/><path d="M1004.86,518.62 Q1030.78,488.16 1060.08,572.55" stroke="hsl(96 34% 20%)" stroke-width="4.399923545233905" fill="none" stroke-linecap="round"/><path d="M1107.282013874501,654 q6.927956607565284,-46.18637738376856 2.309318869188428,-92.37275476753712" stroke="hsl(96 30% 14%)" stroke-width="4.618637738376856" fill="none" stroke-linecap="round"/><path d="M1109.59,561.63 Q1102.24,540.84 1097.2,516.36" stroke="hsl(96 34% 20%)" stroke-width="3.0021145299449565" fill="none" stroke-linecap="round"/><path d="M1109.59,561.63 Q1116.11,540.84 1124.94,516.86" stroke="hsl(96 34% 20%)" stroke-width="3.0021145299449565" fill="none" stroke-linecap="round"/><path d="M1109.59,561.63 Q1128.46,540.84 1149.64,526.23" stroke="hsl(96 34% 20%)" stroke-width="3.0021145299449565" fill="none" stroke-linecap="round"/><path d="M1109.59,561.63 Q1136.85,540.84 1166.41,542.61" stroke="hsl(96 34% 20%)" stroke-width="3.0021145299449565" fill="none" stroke-linecap="round"/><path d="M1109.59,561.63 Q1139.6,540.84 1171.92,562.75" stroke="hsl(96 34% 20%)" stroke-width="3.0021145299449565" fill="none" stroke-linecap="round"/><path d="M1109.59,561.63 Q1136.19,540.84 1165.09,582.68" stroke="hsl(96 34% 20%)" stroke-width="3.0021145299449565" fill="none" stroke-linecap="round"/><path d="M1109.59,561.63 Q1127.27,540.84 1147.27,598.43" stroke="hsl(96 34% 20%)" stroke-width="3.0021145299449565" fill="none" stroke-linecap="round"/>
+  
+
+  <rect width="1200" height="900" fill="url(#g_meridiangardenb_grain)"/>
+  <rect width="1200" height="900" fill="url(#g_meridiangardenb_vig)"/>
+</svg>

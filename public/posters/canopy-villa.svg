@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img">
+  <defs>
+    <linearGradient id="g_canopyvillaa_sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(42 62% 92%)"/>
+      <stop offset="1" stop-color="hsl(40 30% 96%)"/>
+    </linearGradient>
+    <radialGradient id="g_canopyvillaa_sun" cx="0.7" cy="0.34" r="0.5">
+      <stop offset="0" stop-color="hsl(44 85% 82% / 0.95)"/>
+      <stop offset="0.4" stop-color="hsl(44 85% 82% / 0.35)"/>
+      <stop offset="1" stop-color="hsl(44 85% 82% / 0)"/>
+    </radialGradient>
+    <linearGradient id="g_canopyvillaa_vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(0 0% 0% / 0.18)"/>
+      <stop offset="0.35" stop-color="hsl(0 0% 0% / 0)"/>
+      <stop offset="1" stop-color="hsl(142 40% 6% / 0.35)"/>
+    </linearGradient>
+    <pattern id="g_canopyvillaa_grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="hsl(0 0% 100% / 0)"/>
+      <circle cx="1" cy="1" r="0.5" fill="hsl(0 0% 100% / 0.05)"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#g_canopyvillaa_sky)"/>
+  <rect width="1200" height="900" fill="url(#g_canopyvillaa_sun)"/>
+  <circle cx="843.27" cy="306" r="46" fill="hsl(44 85% 90% / 0.9)"/>
+
+  <path d="M0,900 L0,470.78 L0,414.22 L200,415.01 L400,453.79 L600,516.4 L800,468.51 L1000,428.48 L1200,431.32 L1200,470.78 L1200,900 Z" fill="hsl(142 24% 30% / 0.9)"/><path d="M0,900 L0,514.73 L0,468.99 L200,473.48 L400,542.84 L600,528.48 L800,507.98 L1000,459.28 L1200,509.43 L1200,514.73 L1200,900 Z" fill="hsl(142 24% 25% / 0.9)"/><path d="M0,900 L0,580.1 L0,567.23 L200,584.73 L400,595.6 L600,576.28 L800,549.81 L1000,558.17 L1200,593.44 L1200,580.1 L1200,900 Z" fill="hsl(142 24% 20% / 0.9)"/>
+  <rect x="0" y="648" width="1200" height="252" fill="hsl(142 26% 12%)"/>
+  <g><rect x="373.56" y="469.99" width="439.93" height="178.01" fill="hsl(142 24% 13%)"/><rect x="544.82" y="351.23" width="219.96" height="118.76" fill="hsl(142 22% 16%)"/><rect x="355.56" y="461.99" width="475.93" height="8" fill="hsl(142 30% 22%)"/><rect x="387.56" y="483.99" width="71.19" height="68" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="387.56" y="566" width="71.19" height="68" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="472.75" y="483.99" width="71.19" height="68" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="472.75" y="566" width="71.19" height="68" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="557.93" y="483.99" width="71.19" height="68" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="557.93" y="566" width="71.19" height="68" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="643.12" y="483.99" width="71.19" height="68" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="643.12" y="566" width="71.19" height="68" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="728.3" y="483.99" width="71.19" height="68" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="728.3" y="566" width="71.19" height="68" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="558.82" y="365.23" width="88.98" height="38.38" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="558.82" y="417.61" width="88.98" height="38.38" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="661.8" y="365.23" width="88.98" height="38.38" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="661.8" y="417.61" width="88.98" height="38.38" rx="2" fill="hsl(45 90% 72% / 0.92)"/></g>
+  <g>
+    <rect x="81.77" y="616.82" width="6.56" height="37.18" fill="hsl(142 30% 14%)"/>
+    <circle cx="85.04608623683453" cy="603.69" r="28.44" fill="hsl(142 34% 18%)"/>
+    <circle cx="65.36" cy="616.82" r="19.69" fill="hsl(142 34% 16%)"/>
+    <circle cx="102.54" cy="614.63" r="21.87" fill="hsl(142 34% 17%)"/>
+  </g><g>
+    <rect x="1125.38" y="610.11" width="7.74" height="43.89" fill="hsl(142 30% 14%)"/>
+    <circle cx="1129.2550176009536" cy="594.62" r="33.56" fill="hsl(142 34% 18%)"/>
+    <circle cx="1106.02" cy="610.11" r="23.23" fill="hsl(142 34% 16%)"/>
+    <circle cx="1149.91" cy="607.53" r="25.82" fill="hsl(142 34% 17%)"/>
+  </g><g>
+    <rect x="1025.24" y="621.96" width="5.65" height="32.04" fill="hsl(142 30% 14%)"/>
+    <circle cx="1028.0644033662975" cy="610.65" r="24.5" fill="hsl(142 34% 18%)"/>
+    <circle cx="1011.1" cy="621.96" r="16.96" fill="hsl(142 34% 16%)"/>
+    <circle cx="1043.14" cy="620.08" r="18.85" fill="hsl(142 34% 17%)"/>
+  </g>
+  <g>
+    <rect x="0" y="656" width="1200" height="244" fill="hsl(142 30% 10%)"/>
+    <ellipse cx="600" cy="726" rx="504" ry="70" fill="hsl(142 45% 30% / 0.9)"/>
+    <rect x="192" y="690" width="816" height="10" fill="hsl(46 70% 70% / 0.55)" opacity="0.7"/>
+    <rect x="264" y="720" width="672" height="6" fill="hsl(46 70% 70% / 0.55)" opacity="0.5"/>
+  </g>
+
+  <rect width="1200" height="900" fill="url(#g_canopyvillaa_grain)"/>
+  <rect width="1200" height="900" fill="url(#g_canopyvillaa_vig)"/>
+</svg>

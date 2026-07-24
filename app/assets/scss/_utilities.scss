@@ -1,0 +1,47 @@
+// =============================================================================
+// Small utility classes. Layout primitives + a11y helpers only — component
+// styling lives in scoped SCSS, never inline.
+// =============================================================================
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.container {
+  @include container;
+}
+
+.container-wide {
+  @include container($container-wide);
+}
+
+.section {
+  @include section-padding;
+}
+
+// Visually hidden but available to assistive tech.
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+// Reveal-on-scroll base state (progressively enhanced by useReveal).
+.reveal {
+  @include motion-safe {
+    opacity: 0;
+    transform: translateY(28px);
+    transition:
+      opacity var(--dur-slow) var(--ease-out),
+      transform var(--dur-slow) var(--ease-out);
+
+    &.is-visible {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}

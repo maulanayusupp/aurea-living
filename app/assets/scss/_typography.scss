@@ -1,0 +1,80 @@
+// =============================================================================
+// Typography scale. Serif display (Cormorant Garamond) + sans body (Manrope).
+// =============================================================================
+// Partials loaded via @use (not through Vite's additionalData) must import the
+// shared vars/mixins themselves.
+@use 'variables' as *;
+@use 'mixins' as *;
+
+body {
+  font-family: $font-body;
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--color-text);
+  letter-spacing: 0.005em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $font-display;
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  color: var(--color-text);
+  text-wrap: balance;
+}
+
+.t-display {
+  font-family: $font-display;
+  font-weight: 600;
+  font-size: clamp(2.75rem, 7vw, 5.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.015em;
+}
+
+h1,
+.t-h1 {
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
+}
+
+h2,
+.t-h2 {
+  font-size: clamp(1.875rem, 3.6vw, 2.75rem);
+}
+
+h3,
+.t-h3 {
+  font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+}
+
+h4,
+.t-h4 {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+.t-lead {
+  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+  line-height: 1.65;
+  color: var(--color-text-soft);
+}
+
+.t-eyebrow {
+  @include eyebrow;
+  color: var(--color-accent-strong);
+}
+
+.t-muted {
+  color: var(--color-text-muted);
+}
+
+strong,
+b {
+  font-weight: 700;
+}

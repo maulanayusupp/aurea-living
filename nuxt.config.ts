@@ -55,6 +55,12 @@ export default defineNuxtConfig({
   // tags are still set manually via usePageSeo. A static default OG image is used.
   ogImage: { enabled: false },
 
+  // Include dynamic property detail routes in the sitemap (i18n adds locale
+  // variants + hreflang). Static routes are auto-discovered.
+  sitemap: {
+    sources: ['/api/__sitemap__/urls'],
+  },
+
   i18n: {
     baseUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://aurea-living.example.com',
     strategy: 'prefix_except_default',

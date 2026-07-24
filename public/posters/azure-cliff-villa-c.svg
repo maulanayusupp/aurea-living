@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img">
+  <defs>
+    <linearGradient id="g_azurecliffvillac_sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(255 35% 32%)"/>
+      <stop offset="1" stop-color="hsl(30 55% 74%)"/>
+    </linearGradient>
+    <radialGradient id="g_azurecliffvillac_sun" cx="0.26" cy="0.42" r="0.5">
+      <stop offset="0" stop-color="hsl(28 80% 72% / 0.95)"/>
+      <stop offset="0.4" stop-color="hsl(28 80% 72% / 0.35)"/>
+      <stop offset="1" stop-color="hsl(28 80% 72% / 0)"/>
+    </radialGradient>
+    <linearGradient id="g_azurecliffvillac_vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(0 0% 0% / 0.18)"/>
+      <stop offset="0.35" stop-color="hsl(0 0% 0% / 0)"/>
+      <stop offset="1" stop-color="hsl(196 40% 6% / 0.35)"/>
+    </linearGradient>
+    <pattern id="g_azurecliffvillac_grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="hsl(0 0% 100% / 0)"/>
+      <circle cx="1" cy="1" r="0.5" fill="hsl(0 0% 100% / 0.05)"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#g_azurecliffvillac_sky)"/>
+  <rect width="1200" height="900" fill="url(#g_azurecliffvillac_sun)"/>
+  <circle cx="316.43" cy="378" r="46" fill="hsl(28 80% 80% / 0.9)"/>
+
+  <path d="M0,900 L0,464.45 L0,437.65 L200,415.31 L400,469.26 L600,494.66 L800,469.46 L1000,426.53 L1200,421.5 L1200,464.45 L1200,900 Z" fill="hsl(196 24% 30% / 0.9)"/><path d="M0,900 L0,517.09 L0,479.36 L200,494.59 L400,537.85 L600,537.77 L800,483 L1000,476.78 L1200,524.4 L1200,517.09 L1200,900 Z" fill="hsl(196 24% 25% / 0.9)"/><path d="M0,900 L0,590.49 L0,578.25 L200,609.32 L400,618.36 L600,586.74 L800,550.24 L1000,570.41 L1200,602.7 L1200,590.49 L1200,900 Z" fill="hsl(196 24% 20% / 0.9)"/>
+  <rect x="0" y="648" width="1200" height="252" fill="hsl(196 26% 12%)"/>
+  <g><rect x="400.81" y="481.27" width="423.35" height="166.73" fill="hsl(196 24% 13%)"/><rect x="482.57" y="344.35" width="211.68" height="136.92" fill="hsl(196 22% 16%)"/><rect x="382.81" y="473.27" width="459.35" height="8" fill="hsl(196 30% 22%)"/><rect x="414.81" y="495.27" width="67.87" height="62.37" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="414.81" y="571.63" width="67.87" height="62.37" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="496.68" y="495.27" width="67.87" height="62.37" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="496.68" y="571.63" width="67.87" height="62.37" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="578.55" y="495.27" width="67.87" height="62.37" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="578.55" y="571.63" width="67.87" height="62.37" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="660.42" y="495.27" width="67.87" height="62.37" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="660.42" y="571.63" width="67.87" height="62.37" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="742.29" y="495.27" width="67.87" height="62.37" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="742.29" y="571.63" width="67.87" height="62.37" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="496.57" y="358.35" width="84.84" height="47.46" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="496.57" y="419.81" width="84.84" height="47.46" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="595.41" y="358.35" width="84.84" height="47.46" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="595.41" y="419.81" width="84.84" height="47.46" rx="2" fill="hsl(45 90% 72% / 0.92)"/></g>
+  <path d="M237.18445104081184,654 q7.414572243019939,-49.43048162013292 2.4715240810066463,-98.86096324026585" stroke="hsl(196 30% 14%)" stroke-width="4.943048162013293" fill="none" stroke-linecap="round"/><path d="M239.66,555.14 Q231.79,532.9 226.4,506.69" stroke="hsl(196 34% 20%)" stroke-width="3.2129813053086402" fill="none" stroke-linecap="round"/><path d="M239.66,555.14 Q246.64,532.9 256.09,507.23" stroke="hsl(196 34% 20%)" stroke-width="3.2129813053086402" fill="none" stroke-linecap="round"/><path d="M239.66,555.14 Q259.85,532.9 282.52,517.26" stroke="hsl(196 34% 20%)" stroke-width="3.2129813053086402" fill="none" stroke-linecap="round"/><path d="M239.66,555.14 Q268.83,532.9 300.47,534.78" stroke="hsl(196 34% 20%)" stroke-width="3.2129813053086402" fill="none" stroke-linecap="round"/><path d="M239.66,555.14 Q271.78,532.9 306.37,556.34" stroke="hsl(196 34% 20%)" stroke-width="3.2129813053086402" fill="none" stroke-linecap="round"/><path d="M239.66,555.14 Q268.12,532.9 299.05,577.67" stroke="hsl(196 34% 20%)" stroke-width="3.2129813053086402" fill="none" stroke-linecap="round"/><path d="M239.66,555.14 Q258.58,532.9 279.98,594.53" stroke="hsl(196 34% 20%)" stroke-width="3.2129813053086402" fill="none" stroke-linecap="round"/><path d="M1037.5150255020708,654 q9.579315013065935,-63.862100087106235 3.1931050043553117,-127.72420017421247" stroke="hsl(196 30% 14%)" stroke-width="6.3862100087106235" fill="none" stroke-linecap="round"/><path d="M1040.71,526.28 Q1030.55,497.54 1023.58,463.69" stroke="hsl(196 34% 20%)" stroke-width="4.151036505661906" fill="none" stroke-linecap="round"/><path d="M1040.71,526.28 Q1049.73,497.54 1061.94,464.38" stroke="hsl(196 34% 20%)" stroke-width="4.151036505661906" fill="none" stroke-linecap="round"/><path d="M1040.71,526.28 Q1066.8,497.54 1096.09,477.33" stroke="hsl(196 34% 20%)" stroke-width="4.151036505661906" fill="none" stroke-linecap="round"/><path d="M1040.71,526.28 Q1078.39,497.54 1119.27,499.98" stroke="hsl(196 34% 20%)" stroke-width="4.151036505661906" fill="none" stroke-linecap="round"/><path d="M1040.71,526.28 Q1082.21,497.54 1126.9,527.83" stroke="hsl(196 34% 20%)" stroke-width="4.151036505661906" fill="none" stroke-linecap="round"/><path d="M1040.71,526.28 Q1077.48,497.54 1117.45,555.38" stroke="hsl(196 34% 20%)" stroke-width="4.151036505661906" fill="none" stroke-linecap="round"/><path d="M1040.71,526.28 Q1065.16,497.54 1092.8,577.16" stroke="hsl(196 34% 20%)" stroke-width="4.151036505661906" fill="none" stroke-linecap="round"/><path d="M1081.9022305868566,654 q9.506917930394412,-63.379452869296074 3.168972643464804,-126.75890573859215" stroke="hsl(196 30% 14%)" stroke-width="6.337945286929608" fill="none" stroke-linecap="round"/><path d="M1085.07,527.24 Q1074.99,498.72 1068.07,465.13" stroke="hsl(196 34% 20%)" stroke-width="4.119664436504245" fill="none" stroke-linecap="round"/><path d="M1085.07,527.24 Q1094.02,498.72 1106.14,465.81" stroke="hsl(196 34% 20%)" stroke-width="4.119664436504245" fill="none" stroke-linecap="round"/><path d="M1085.07,527.24 Q1110.97,498.72 1140.03,478.67" stroke="hsl(196 34% 20%)" stroke-width="4.119664436504245" fill="none" stroke-linecap="round"/><path d="M1085.07,527.24 Q1122.47,498.72 1163.04,501.14" stroke="hsl(196 34% 20%)" stroke-width="4.119664436504245" fill="none" stroke-linecap="round"/><path d="M1085.07,527.24 Q1126.26,498.72 1170.61,528.79" stroke="hsl(196 34% 20%)" stroke-width="4.119664436504245" fill="none" stroke-linecap="round"/><path d="M1085.07,527.24 Q1121.57,498.72 1161.23,556.13" stroke="hsl(196 34% 20%)" stroke-width="4.119664436504245" fill="none" stroke-linecap="round"/><path d="M1085.07,527.24 Q1109.34,498.72 1136.77,577.74" stroke="hsl(196 34% 20%)" stroke-width="4.119664436504245" fill="none" stroke-linecap="round"/>
+  <g>
+    <rect x="0" y="656" width="1200" height="244" fill="hsl(196 30% 10%)"/>
+    <ellipse cx="600" cy="726" rx="504" ry="70" fill="hsl(196 45% 30% / 0.9)"/>
+    <rect x="192" y="690" width="816" height="10" fill="hsl(24 70% 70% / 0.55)" opacity="0.7"/>
+    <rect x="264" y="720" width="672" height="6" fill="hsl(24 70% 70% / 0.55)" opacity="0.5"/>
+  </g>
+
+  <rect width="1200" height="900" fill="url(#g_azurecliffvillac_grain)"/>
+  <rect width="1200" height="900" fill="url(#g_azurecliffvillac_vig)"/>
+</svg>

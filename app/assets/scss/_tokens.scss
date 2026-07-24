@@ -1,0 +1,64 @@
+// =============================================================================
+// Design tokens as CSS custom properties (runtime values). Editorial Light
+// Luxury palette: ivory paper, deep emerald ink, champagne gold accent.
+// =============================================================================
+:root {
+  // --- Brand palette ---------------------------------------------------------
+  --color-emerald-900: #0c221d;
+  --color-emerald-800: #0f2a24;
+  --color-emerald-700: #143a31;
+  --color-emerald-600: #1c5142;
+  --color-emerald-400: #3f7c6a;
+
+  --color-gold-600: #a67c2e;
+  --color-gold-500: #c9a24b;
+  --color-gold-400: #d8b767;
+  --color-gold-200: #ecdcae;
+
+  --color-paper: #faf7f0;   // page background (ivory)
+  --color-sand: #f2ece0;    // subtle alt surface
+  --color-cream: #fffdf8;   // card surface
+  --color-ink: #17201c;     // primary text on light
+  --color-ink-soft: #4c5751;
+  --color-muted: #7b8480;   // secondary text
+  --color-line: #e4ddce;    // hairline borders on light
+  --color-line-dark: rgb(236 220 174 / 0.16); // borders on dark
+
+  // --- Semantic roles --------------------------------------------------------
+  --color-bg: var(--color-paper);
+  --color-surface: var(--color-cream);
+  --color-surface-alt: var(--color-sand);
+  --color-text: var(--color-ink);
+  --color-text-soft: var(--color-ink-soft);
+  --color-text-muted: var(--color-muted);
+  --color-accent: var(--color-gold-500);
+  --color-accent-strong: var(--color-gold-600);
+  --color-contrast: var(--color-emerald-800); // dark sections / footer
+
+  // On-dark text roles (used inside emerald sections)
+  --color-on-dark: #f4efe4;
+  --color-on-dark-soft: rgb(244 239 228 / 0.72);
+
+  // --- Radii -----------------------------------------------------------------
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+
+  // --- Shadows ---------------------------------------------------------------
+  --shadow-sm: 0 1px 2px rgb(23 32 28 / 0.05), 0 2px 6px rgb(23 32 28 / 0.04);
+  --shadow-md: 0 8px 24px rgb(23 32 28 / 0.08), 0 2px 8px rgb(23 32 28 / 0.05);
+  --shadow-lg: 0 24px 60px rgb(23 32 28 / 0.14), 0 8px 20px rgb(23 32 28 / 0.08);
+  --shadow-gold: 0 12px 32px rgb(166 124 46 / 0.28);
+
+  // --- Motion ----------------------------------------------------------------
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 160ms;
+  --dur: 280ms;
+  --dur-slow: 520ms;
+
+  // --- Layout ----------------------------------------------------------------
+  --header-h: 76px;
+}

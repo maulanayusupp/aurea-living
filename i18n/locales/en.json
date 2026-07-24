@@ -1,0 +1,488 @@
+{
+  "meta": {
+    "tagline": "A Collection of Luxury Villas & Residences",
+    "home": {
+      "title": "Luxury Living with Soul",
+      "description": "Aurea Living curates a collection of considered villas, residences, penthouses, and estates — thoughtful architecture, premium materials, and a rare sense of calm."
+    },
+    "residences": {
+      "title": "The Collection",
+      "description": "Explore Aurea Living's twelve curated residences. Filter by collection, price, and bedrooms, then enquire directly on WhatsApp."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "The Aurea Living philosophy: designing homes that are honest, timeless, and respectful of the people and places they belong to."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Speak with the Aurea Living team via WhatsApp, phone, or email. We are glad to help you find the right home."
+    },
+    "compliance": {
+      "title": "Compliance & Disclosure",
+      "description": "How Aurea Living presents information, handles data, and keeps honest disclosure without over-claiming."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "How your data is handled when you contact Aurea Living."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "description": "Terms for using the Aurea Living website."
+    }
+  },
+  "nav": {
+    "primary": "Primary navigation",
+    "residences": "Residences",
+    "about": "About",
+    "experience": "Experience",
+    "contact": "Contact",
+    "compliance": "Compliance",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "open": "Open menu",
+    "close": "Close menu"
+  },
+  "cta": {
+    "whatsapp": "Chat on WhatsApp",
+    "consult": "Consult us",
+    "explore": "Explore the Collection",
+    "details": "Details",
+    "inquire": "Enquire",
+    "inquireWhatsApp": "Enquire via WhatsApp",
+    "call": "Call",
+    "email": "Email",
+    "talkAdvisor": "Talk to an Advisor",
+    "contactUs": "Contact Us",
+    "viewAll": "View all"
+  },
+  "a11y": {
+    "skip": "Skip to main content"
+  },
+  "hero": {
+    "eyebrow": "Villa · Residence · Penthouse · Estate",
+    "titleLead": "Homes that are",
+    "titleEm": "calm,",
+    "titleTail": "designed for a fuller life.",
+    "lead": "Aurea Living curates a collection of considered homes in Bandung — every space shaped by light, material, and proportion.",
+    "facts": {
+      "collections": "Collections",
+      "residences": "Residences",
+      "city": "City"
+    },
+    "showcaseNav": "Choose a featured residence",
+    "scroll": "Scroll down"
+  },
+  "stats": {
+    "residences": "Curated residences",
+    "collections": "Collections",
+    "area": "Avg. built area (hundred m²)",
+    "since": "Crafting since"
+  },
+  "collection": {
+    "eyebrow": "Featured Collection",
+    "title": "Residences worth a closer look",
+    "lead": "A selection of homes with strong character — from garden villas to penthouses with city panoramas.",
+    "viewAll": "View the full collection"
+  },
+  "amenities": {
+    "eyebrow": "The Aurea Experience",
+    "title": "Details you feel every day",
+    "lead": "Not merely amenities, but a calmer, more meaningful way to live.",
+    "architecture": {
+      "title": "Considered architecture",
+      "desc": "Flowing floor plans, generous natural light, and proportions that feel right for daily life."
+    },
+    "materials": {
+      "title": "Premium materials",
+      "desc": "Timeless material choices and clean finishing in every corner."
+    },
+    "wellness": {
+      "title": "Space & gardens",
+      "desc": "Green areas, cross ventilation, and open space that keep a home airy and healthy."
+    },
+    "smart": {
+      "title": "Smart home",
+      "desc": "Lighting, security, and comfort that are easy to manage in selected residences."
+    },
+    "privacy": {
+      "title": "Privacy & security",
+      "desc": "Layouts that protect residents' privacy, with controlled entry."
+    },
+    "concierge": {
+      "title": "Personal guidance",
+      "desc": "Our team supports you from the first visit onward, with clear communication."
+    }
+  },
+  "journey": {
+    "eyebrow": "Your Journey",
+    "title": "A simple, transparent path",
+    "lead": "We keep every stage clear. You always know what comes next — without pressure.",
+    "discover": {
+      "title": "Discover",
+      "desc": "Explore the collection online and choose the home that best fits your needs."
+    },
+    "visit": {
+      "title": "Visit",
+      "desc": "Arrange an in-person visit or a virtual tour with one of our advisors."
+    },
+    "reserve": {
+      "title": "Discuss",
+      "desc": "We discuss the details, availability, and options openly and honestly."
+    },
+    "move": {
+      "title": "Proceed",
+      "desc": "Once everything is clear, we guide you calmly toward the next step."
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Impressions (sample)",
+    "title": "What makes a home feel right",
+    "items": {
+      "nadia": {
+        "name": "Nadia",
+        "role": "Prospective resident",
+        "quote": "The process was clear and never pushy. I truly felt heard when I described what my family needed."
+      },
+      "reza": {
+        "name": "Reza",
+        "role": "Visitor",
+        "quote": "The attention to material and light is real once you visit in person."
+      },
+      "sari": {
+        "name": "Sari",
+        "role": "Prospective resident",
+        "quote": "The information was open and consistent, from the website through to the visit."
+      }
+    }
+  },
+  "ctaBand": {
+    "eyebrow": "Let's begin",
+    "title": "Find a home that feels",
+    "titleEm": "like yours.",
+    "lead": "Tell us what you need on WhatsApp. Our team will help you choose the right home — patiently, and without pressure.",
+    "contactUs": "Contact Us"
+  },
+  "footer": {
+    "blurb": "Aurea Living curates a collection of luxury villas & residences in Bandung, focused on honest architecture and homes that last.",
+    "explore": "Explore",
+    "connect": "Connect",
+    "rights": "All rights reserved.",
+    "disclaimer": "Aurea Living is a demonstration brand. Names, imagery, and figures are illustrative and not an official offer."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk",
+    "lead": "We are here to help you find the right home. Reach us through your preferred channel.",
+    "reachTitle": "Contact channels",
+    "reachLead": "WhatsApp is the fastest way to reach our team.",
+    "hours": "Monday–Saturday, 9am–6pm (WIB)",
+    "formTitle": "Send an enquiry",
+    "formLead": "Fill in the form and we'll forward it via WhatsApp or email — your choice.",
+    "channels": {
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp",
+      "phone": "Phone",
+      "email": "Email",
+      "location": "Location"
+    },
+    "wa": {
+      "general": "Hello Aurea Living, I'd like to know more about your collection of homes.",
+      "inquiry": "Hello Aurea Living, I'm interested in {name} ({collection}). Could I get more details? {url}"
+    },
+    "email": {
+      "subject": "Enquiry about {name}"
+    }
+  },
+  "contactForm": {
+    "name": "Name",
+    "namePlaceholder": "Your full name",
+    "phone": "Phone number",
+    "phonePlaceholder": "Optional",
+    "interest": "Interested in",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about the home you're looking for…",
+    "error": "Please fill in your name and message first.",
+    "sendWhatsApp": "Send via WhatsApp",
+    "sendEmail": "Send via Email",
+    "privacyNote": "On submit, you'll be taken to WhatsApp or your email app. We don't store any data on this site.",
+    "template": "Hello Aurea Living,\n\nName: {name}\nPhone: {phone}\nInterested in: {interest}\n\n{message}",
+    "emailSubject": "Enquiry from the Aurea Living website"
+  },
+  "properties": {
+    "empty": "No residences match your filters. Try loosening your selection.",
+    "collections": {
+      "villa": "Villa",
+      "residence": "Residence",
+      "penthouse": "Penthouse",
+      "estate": "Estate"
+    },
+    "status": {
+      "available": "Available",
+      "ready": "Ready to move in",
+      "offplan": "Off-plan",
+      "sold": "Sold"
+    },
+    "spec": {
+      "beds": "Beds",
+      "baths": "Baths"
+    },
+    "features": {
+      "pool": "Private pool",
+      "garden": "Garden & landscape",
+      "smart-home": "Smart-home system",
+      "security": "24-hour security",
+      "view": "Open panorama",
+      "parking": "Ample parking",
+      "solar": "Solar panels",
+      "home-office": "Home office",
+      "spa": "Spa & wellness area",
+      "concierge": "Concierge support",
+      "gym": "Fitness room",
+      "rooftop": "Rooftop terrace",
+      "wine-cellar": "Wine cellar"
+    },
+    "items": {
+      "serene-villa": {
+        "name": "Serene Villa",
+        "location": "Dago Pakar, Bandung",
+        "description": "A four-bedroom villa with a private pool and quiet gardens, shaped to follow the natural contour of the land.",
+        "detail": "Open living spaces flow onto the terrace and pool, while the primary suite faces a leafy garden. Morning light enters softly through wide openings."
+      },
+      "canopy-villa": {
+        "name": "Canopy Villa",
+        "location": "Ciumbuleuit, Bandung",
+        "description": "A three-bedroom villa sheltered by trees, with solar panels and a quiet home office.",
+        "detail": "Designed for sustainable living, it combines cross ventilation, natural light, and a garden that blends into the interior."
+      },
+      "lumen-villa": {
+        "name": "Lumen Villa",
+        "location": "Punclut, Bandung",
+        "description": "A villa with a private spa area and hillside panoramas — for both quiet retreat and hosting guests.",
+        "detail": "Warm materials and soft lighting create a calming mood. The spa and pool become the heart of family relaxation."
+      },
+      "ivory-terrace": {
+        "name": "Ivory Terrace",
+        "location": "Setiabudi, Bandung",
+        "description": "A three-bedroom residence with a green terrace and smart-home system — compact yet airy.",
+        "detail": "An efficient plan makes the most of every metre. The terrace becomes an extra space to unwind in the afternoon."
+      },
+      "saffron-court": {
+        "name": "Saffron Court",
+        "location": "Cigadung, Bandung",
+        "description": "A residence with an inner garden, home office, and solar panels for more efficient living.",
+        "detail": "Ideal for young families who value comfort alongside energy awareness."
+      },
+      "meridian-garden": {
+        "name": "Meridian Garden",
+        "location": "Antapani, Bandung",
+        "description": "A two-bedroom residence with shared gardens and a fitness room — a calm off-plan option.",
+        "detail": "As an off-plan unit, the plan and finishing can still be discussed to suit your needs."
+      },
+      "skyline-crown": {
+        "name": "Skyline Crown",
+        "location": "City Centre, Bandung",
+        "description": "A penthouse with a rooftop terrace and city panorama, with concierge support and security.",
+        "detail": "Generous living space opens onto the city all day long. The rooftop terrace is ideal for hosting guests in the evening."
+      },
+      "celestia": {
+        "name": "Celestia Penthouse",
+        "location": "City Centre, Bandung",
+        "description": "A four-bedroom penthouse with a spa area, wine cellar, and a grand rooftop terrace.",
+        "detail": "The pinnacle of our city collection — designed for special moments with the finest finishing details."
+      },
+      "highland-manor": {
+        "name": "Highland Manor",
+        "location": "Lembang, Bandung",
+        "description": "A five-bedroom estate with generous grounds, a pool, gardens, and a wine cellar in cool highlands.",
+        "detail": "This estate offers room for extended family and guests, with expansive gardens and fresh mountain air."
+      },
+      "riverstone": {
+        "name": "Riverstone Estate",
+        "location": "Maribaya, Bandung",
+        "description": "A six-bedroom estate with a spa, fitness area, and wide gardens — an exclusive off-plan project.",
+        "detail": "As an off-plan project, Riverstone offers flexibility in plan and finishing to match your preferences."
+      },
+      "azure-cliff": {
+        "name": "Azure Cliff Villa",
+        "location": "Dago Atas, Bandung",
+        "description": "A cliffside villa with open panoramas, a pool, and a spa area that merges with the view.",
+        "detail": "Its elevated position offers a wide panorama that shifts throughout the day, from morning mist to evening light."
+      },
+      "palma-grove": {
+        "name": "Palma Grove",
+        "location": "Sukajadi, Bandung",
+        "description": "A three-bedroom residence with a small pool, garden, and solar panels in a leafy neighbourhood.",
+        "detail": "A blend of family comfort and efficiency, surrounded by a calm, green setting."
+      }
+    }
+  },
+  "filters": {
+    "collection": "Collection",
+    "all": "All",
+    "beds": "Bedrooms",
+    "bedsDown": "Fewer bedrooms",
+    "bedsUp": "More bedrooms",
+    "any": "Any",
+    "maxPrice": "Price up to",
+    "sort": "Sort",
+    "sortOptions": {
+      "featured": "Featured",
+      "priceAsc": "Price: low to high",
+      "priceDesc": "Price: high to low",
+      "areaDesc": "Largest area"
+    },
+    "showing": "Showing {count} residences",
+    "reset": "Reset"
+  },
+  "residences": {
+    "eyebrow": "The Collection",
+    "title": "Find your residence",
+    "lead": "Twelve curated homes across four collections. Filter to your needs, then enquire directly on WhatsApp."
+  },
+  "detail": {
+    "back": "Back to the collection",
+    "about": "About this residence",
+    "features": "Features & highlights",
+    "related": "Similar residences",
+    "relatedEyebrow": "You may also like",
+    "priceNote": "Indicative price. Final details are discussed with an advisor.",
+    "built": "Built area",
+    "land": "Land area",
+    "advisor": "Fast response on WhatsApp during working hours · {phone}"
+  },
+  "about": {
+    "eyebrow": "About Aurea Living",
+    "title": "Honest homes, built to last",
+    "lead": "We believe the best homes are calm, functional, and respectful of people and place.",
+    "statement": "We design less, but better — homes that are mature in detail and endure over time.",
+    "body": "Aurea Living favours quality over quantity. Every home in our collection is chosen and composed with attention to light, material, and proportion. We prioritise open communication and a pressure-free process, so you can decide calmly and with confidence.",
+    "valuesEyebrow": "Our Principles",
+    "valuesTitle": "What we hold to",
+    "values": {
+      "craft": {
+        "title": "Craft",
+        "desc": "Attention to the small details that make a big difference in daily life."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "desc": "Honest, consistent information, without over-claiming."
+      },
+      "stewardship": {
+        "title": "Stewardship",
+        "desc": "Respect for the environment and the surroundings of each home."
+      },
+      "service": {
+        "title": "Guidance",
+        "desc": "Supporting you patiently at every stage of the journey."
+      }
+    }
+  },
+  "legal": {
+    "updated": "Updated July 2026"
+  },
+  "compliance": {
+    "eyebrow": "Compliance",
+    "title": "Disclosure & compliance",
+    "lead": "We are committed to presenting information honestly and avoiding claims we cannot stand behind.",
+    "sections": {
+      "overview": {
+        "title": "Overview",
+        "body": "This page explains how we present information, handle enquiries, and maintain disclosure.\nAurea Living is a demonstration brand. Names, imagery, prices, and figures on this site are illustrative and are not an official offer or a binding agreement."
+      },
+      "disclosure": {
+        "title": "Information disclosure",
+        "body": "We do not display certifications, awards, or affiliations that we do not hold.\nSpecifications, areas, and prices may differ from actual conditions and should be confirmed directly before any decision is made."
+      },
+      "data": {
+        "title": "Data handling",
+        "body": "This site does not store your personal data on our servers. When you send an enquiry, the information is forwarded directly via WhatsApp or your chosen email app.\nFurther details are available on the Privacy Policy page."
+      },
+      "payments": {
+        "title": "Enquiries & transactions",
+        "body": "This site does not process online payments. All enquiries and commercial discussions happen directly via WhatsApp, phone, or email with our team.\nEvery transaction step is handled directly and transparently."
+      },
+      "imagery": {
+        "title": "Imagery & visuals",
+        "body": "Home imagery on this site is illustrative visual content generated for demonstration purposes, not photographs of real property.\nFor production use, imagery would be replaced with official property photography."
+      },
+      "contact": {
+        "title": "Contacting us",
+        "body": "For questions about compliance or the information on this site, please reach us through the channels on the Contact page."
+      }
+    }
+  },
+  "privacy": {
+    "eyebrow": "Privacy",
+    "title": "Privacy policy",
+    "lead": "A brief, honest explanation of how your data is handled when you interact with this site.",
+    "sections": {
+      "collect": {
+        "title": "Data we receive",
+        "body": "This site has no forms that store data on a server. When you use the contact form, the details you enter are composed into a message and sent via WhatsApp or your own email app.\nSo your data only travels through the channel you choose."
+      },
+      "use": {
+        "title": "Use of data",
+        "body": "Information you send via WhatsApp or email is used solely to respond to your enquiry and help with choosing a home."
+      },
+      "share": {
+        "title": "Sharing data",
+        "body": "We do not sell or share your information with third parties for marketing. Communication stays between you and our team."
+      },
+      "cookies": {
+        "title": "Cookies",
+        "body": "The site uses minimal technical cookies, for example to remember your language preference. We do not use third-party advertising cookies."
+      },
+      "rights": {
+        "title": "Your rights",
+        "body": "Because we do not store your data on this site, you keep full control over the WhatsApp or email conversation. You can delete it from your device at any time."
+      },
+      "contact": {
+        "title": "Privacy questions",
+        "body": "If you have any privacy questions, please reach us through the channels on the Contact page."
+      }
+    }
+  },
+  "terms": {
+    "eyebrow": "Terms",
+    "title": "Terms of use",
+    "lead": "Terms for using the Aurea Living website.",
+    "sections": {
+      "use": {
+        "title": "Using the site",
+        "body": "By accessing this site, you agree to use it for reasonable informational purposes. Content is provided as-is for demonstration."
+      },
+      "listings": {
+        "title": "Residence information",
+        "body": "Home details, prices, areas, and imagery are illustrative and may change. No part of this site constitutes an official offer or a binding agreement."
+      },
+      "inquiries": {
+        "title": "Enquiries",
+        "body": "Enquiries sent through the site are forwarded via WhatsApp or email. Responses are provided at the team's availability during working hours."
+      },
+      "ip": {
+        "title": "Intellectual property",
+        "body": "Names, designs, and materials on this site are used for demonstration. Any third-party marks or names belong to their respective owners."
+      },
+      "liability": {
+        "title": "Limitation of liability",
+        "body": "We strive to keep information accurate but do not guarantee that all content is free of errors. Decisions should be made after direct confirmation."
+      },
+      "law": {
+        "title": "Governing law",
+        "body": "These terms are governed by the applicable laws of Indonesia."
+      }
+    }
+  },
+  "error": {
+    "notFound": {
+      "title": "Page not found",
+      "lead": "The page you're looking for may have moved or is unavailable."
+    },
+    "generic": {
+      "title": "Something went wrong",
+      "lead": "Sorry, an unexpected issue occurred. Please try again."
+    },
+    "home": "Back to home",
+    "browse": "Browse the collection"
+  }
+}

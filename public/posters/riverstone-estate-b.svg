@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img">
+  <defs>
+    <linearGradient id="g_riverstoneestateb_sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(200 30% 88%)"/>
+      <stop offset="1" stop-color="hsl(46 40% 97%)"/>
+    </linearGradient>
+    <radialGradient id="g_riverstoneestateb_sun" cx="0.8" cy="0.22" r="0.5">
+      <stop offset="0" stop-color="hsl(46 70% 92% / 0.95)"/>
+      <stop offset="0.4" stop-color="hsl(46 70% 92% / 0.35)"/>
+      <stop offset="1" stop-color="hsl(46 70% 92% / 0)"/>
+    </radialGradient>
+    <linearGradient id="g_riverstoneestateb_vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(0 0% 0% / 0.18)"/>
+      <stop offset="0.35" stop-color="hsl(0 0% 0% / 0)"/>
+      <stop offset="1" stop-color="hsl(188 40% 6% / 0.35)"/>
+    </linearGradient>
+    <pattern id="g_riverstoneestateb_grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="hsl(0 0% 100% / 0)"/>
+      <circle cx="1" cy="1" r="0.5" fill="hsl(0 0% 100% / 0.05)"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#g_riverstoneestateb_sky)"/>
+  <rect width="1200" height="900" fill="url(#g_riverstoneestateb_sun)"/>
+  <circle cx="954.6" cy="198" r="46" fill="hsl(46 70% 96% / 0.9)"/>
+
+  <path d="M0,900 L0,463.13 L0,451.35 L200,417.9 L400,449.62 L600,480.8 L800,487.91 L1000,424.43 L1200,412.24 L1200,463.13 L1200,900 Z" fill="hsl(188 24% 30% / 0.9)"/><path d="M0,900 L0,527.52 L0,472.67 L200,509.06 L400,549.59 L600,536.06 L800,488.87 L1000,489.74 L1200,510.4 L1200,527.52 L1200,900 Z" fill="hsl(188 24% 25% / 0.9)"/><path d="M0,900 L0,583.03 L0,548.49 L200,605.67 L400,594.34 L600,563.93 L800,549.2 L1000,546.26 L1200,606.4 L1200,583.03 L1200,900 Z" fill="hsl(188 24% 20% / 0.9)"/>
+  <rect x="0" y="648" width="1200" height="252" fill="hsl(188 26% 12%)"/>
+  <g><rect x="373.6" y="476.45" width="459.54" height="171.55" fill="hsl(188 24% 13%)"/><rect x="432.96" y="350.58" width="229.77" height="125.87" fill="hsl(188 22% 16%)"/><rect x="355.6" y="468.45" width="495.54" height="8" fill="hsl(188 30% 22%)"/><rect x="387.6" y="490.45" width="75.11" height="64.77" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="387.6" y="569.23" width="75.11" height="64.77" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="476.71" y="490.45" width="75.11" height="64.77" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="476.71" y="569.23" width="75.11" height="64.77" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="565.81" y="490.45" width="75.11" height="64.77" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="565.81" y="569.23" width="75.11" height="64.77" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="654.92" y="490.45" width="75.11" height="64.77" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="654.92" y="569.23" width="75.11" height="64.77" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="744.03" y="490.45" width="75.11" height="64.77" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="744.03" y="569.23" width="75.11" height="64.77" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="446.96" y="364.58" width="93.89" height="41.94" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="446.96" y="420.52" width="93.89" height="41.94" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="554.85" y="364.58" width="93.89" height="41.94" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="554.85" y="420.52" width="93.89" height="41.94" rx="2" fill="hsl(45 30% 40% / 0.5)"/></g>
+  <g>
+    <rect x="161.36" y="620.18" width="5.97" height="33.82" fill="hsl(188 30% 14%)"/>
+    <circle cx="164.340411555022" cy="608.25" r="25.86" fill="hsl(188 34% 18%)"/>
+    <circle cx="146.44" cy="620.18" r="17.9" fill="hsl(188 34% 16%)"/>
+    <circle cx="180.25" cy="618.19" r="19.89" fill="hsl(188 34% 17%)"/>
+  </g><g>
+    <rect x="58.7" y="613.87" width="7.08" height="40.13" fill="hsl(188 30% 14%)"/>
+    <circle cx="62.24517121911049" cy="599.7" r="30.69" fill="hsl(188 34% 18%)"/>
+    <circle cx="41" cy="613.87" r="21.25" fill="hsl(188 34% 16%)"/>
+    <circle cx="81.13" cy="611.51" r="23.61" fill="hsl(188 34% 17%)"/>
+  </g>
+  <g>
+    <rect x="0" y="656" width="1200" height="244" fill="hsl(188 30% 10%)"/>
+    <ellipse cx="600" cy="726" rx="504" ry="70" fill="hsl(188 45% 30% / 0.9)"/>
+    <rect x="192" y="690" width="816" height="10" fill="hsl(46 70% 70% / 0.55)" opacity="0.7"/>
+    <rect x="264" y="720" width="672" height="6" fill="hsl(46 70% 70% / 0.55)" opacity="0.5"/>
+  </g>
+
+  <rect width="1200" height="900" fill="url(#g_riverstoneestateb_grain)"/>
+  <rect width="1200" height="900" fill="url(#g_riverstoneestateb_vig)"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img">
+  <defs>
+    <linearGradient id="g_ivoryterraceb_sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(200 30% 88%)"/>
+      <stop offset="1" stop-color="hsl(46 40% 97%)"/>
+    </linearGradient>
+    <radialGradient id="g_ivoryterraceb_sun" cx="0.21" cy="0.22" r="0.5">
+      <stop offset="0" stop-color="hsl(46 70% 92% / 0.95)"/>
+      <stop offset="0.4" stop-color="hsl(46 70% 92% / 0.35)"/>
+      <stop offset="1" stop-color="hsl(46 70% 92% / 0)"/>
+    </radialGradient>
+    <linearGradient id="g_ivoryterraceb_vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(0 0% 0% / 0.18)"/>
+      <stop offset="0.35" stop-color="hsl(0 0% 0% / 0)"/>
+      <stop offset="1" stop-color="hsl(44 40% 6% / 0.35)"/>
+    </linearGradient>
+    <pattern id="g_ivoryterraceb_grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="hsl(0 0% 100% / 0)"/>
+      <circle cx="1" cy="1" r="0.5" fill="hsl(0 0% 100% / 0.05)"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#g_ivoryterraceb_sky)"/>
+  <rect width="1200" height="900" fill="url(#g_ivoryterraceb_sun)"/>
+  <circle cx="257.33" cy="198" r="46" fill="hsl(46 70% 96% / 0.9)"/>
+
+  <path d="M0,900 L0,477.83 L0,429.1 L200,425.15 L400,475.57 L600,517.11 L800,513.84 L1000,433.8 L1200,438.68 L1200,477.83 L1200,900 Z" fill="hsl(44 24% 30% / 0.9)"/><path d="M0,900 L0,516.91 L0,471.19 L200,493.19 L400,540.06 L600,516.73 L800,480.9 L1000,464.11 L1200,521.18 L1200,516.91 L1200,900 Z" fill="hsl(44 24% 25% / 0.9)"/><path d="M0,900 L0,588.39 L0,565.06 L200,585.32 L400,600.6 L600,587.49 L800,546.78 L1000,570.8 L1200,595.99 L1200,588.39 L1200,900 Z" fill="hsl(44 24% 20% / 0.9)"/>
+  <rect x="0" y="648" width="1200" height="252" fill="hsl(44 26% 12%)"/>
+  <g><rect x="394.51" y="477.87" width="432.64" height="170.13" fill="hsl(44 24% 13%)"/><rect x="449.2" y="360.73" width="216.32" height="117.13" fill="hsl(44 22% 16%)"/><rect x="376.51" y="469.87" width="468.64" height="8" fill="hsl(44 30% 22%)"/><rect x="408.51" y="491.87" width="69.73" height="64.07" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="408.51" y="569.93" width="69.73" height="64.07" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="492.23" y="491.87" width="69.73" height="64.07" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="492.23" y="569.93" width="69.73" height="64.07" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="575.96" y="491.87" width="69.73" height="64.07" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="575.96" y="569.93" width="69.73" height="64.07" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="659.69" y="491.87" width="69.73" height="64.07" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="659.69" y="569.93" width="69.73" height="64.07" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="743.42" y="491.87" width="69.73" height="64.07" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="743.42" y="569.93" width="69.73" height="64.07" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="463.2" y="374.73" width="87.16" height="37.57" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="463.2" y="426.3" width="87.16" height="37.57" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="564.36" y="374.73" width="87.16" height="37.57" rx="2" fill="hsl(45 30% 40% / 0.5)"/><rect x="564.36" y="426.3" width="87.16" height="37.57" rx="2" fill="hsl(45 30% 40% / 0.5)"/></g>
+  <path d="M146.38927354943007,654 q7.527989292517304,-50.186595283448696 2.509329764172435,-100.37319056689739" stroke="hsl(44 30% 14%)" stroke-width="5.01865952834487" fill="none" stroke-linecap="round"/><path d="M148.9,553.63 Q140.91,531.04 135.44,504.44" stroke="hsl(44 34% 20%)" stroke-width="3.2621286934241653" fill="none" stroke-linecap="round"/><path d="M148.9,553.63 Q155.99,531.04 165.58,504.99" stroke="hsl(44 34% 20%)" stroke-width="3.2621286934241653" fill="none" stroke-linecap="round"/><path d="M148.9,553.63 Q169.41,531.04 192.42,515.16" stroke="hsl(44 34% 20%)" stroke-width="3.2621286934241653" fill="none" stroke-linecap="round"/><path d="M148.9,553.63 Q178.51,531.04 210.64,532.96" stroke="hsl(44 34% 20%)" stroke-width="3.2621286934241653" fill="none" stroke-linecap="round"/><path d="M148.9,553.63 Q181.51,531.04 216.63,554.85" stroke="hsl(44 34% 20%)" stroke-width="3.2621286934241653" fill="none" stroke-linecap="round"/><path d="M148.9,553.63 Q177.8,531.04 209.21,576.5" stroke="hsl(44 34% 20%)" stroke-width="3.2621286934241653" fill="none" stroke-linecap="round"/><path d="M148.9,553.63 Q168.11,531.04 189.84,593.62" stroke="hsl(44 34% 20%)" stroke-width="3.2621286934241653" fill="none" stroke-linecap="round"/><path d="M155.32478344626725,654 q9.880883437022568,-65.87255624681711 3.2936278123408558,-131.74511249363422" stroke="hsl(44 30% 14%)" stroke-width="6.5872556246817116" fill="none" stroke-linecap="round"/><path d="M158.62,522.25 Q148.14,492.61 140.95,457.7" stroke="hsl(44 34% 20%)" stroke-width="4.281716156043113" fill="none" stroke-linecap="round"/><path d="M158.62,522.25 Q167.92,492.61 180.52,458.41" stroke="hsl(44 34% 20%)" stroke-width="4.281716156043113" fill="none" stroke-linecap="round"/><path d="M158.62,522.25 Q185.53,492.61 215.74,471.77" stroke="hsl(44 34% 20%)" stroke-width="4.281716156043113" fill="none" stroke-linecap="round"/><path d="M158.62,522.25 Q197.49,492.61 239.66,495.13" stroke="hsl(44 34% 20%)" stroke-width="4.281716156043113" fill="none" stroke-linecap="round"/><path d="M158.62,522.25 Q201.42,492.61 247.52,523.86" stroke="hsl(44 34% 20%)" stroke-width="4.281716156043113" fill="none" stroke-linecap="round"/><path d="M158.62,522.25 Q196.55,492.61 237.77,552.28" stroke="hsl(44 34% 20%)" stroke-width="4.281716156043113" fill="none" stroke-linecap="round"/><path d="M158.62,522.25 Q183.84,492.61 212.35,574.74" stroke="hsl(44 34% 20%)" stroke-width="4.281716156043113" fill="none" stroke-linecap="round"/>
+  
+
+  <rect width="1200" height="900" fill="url(#g_ivoryterraceb_grain)"/>
+  <rect width="1200" height="900" fill="url(#g_ivoryterraceb_vig)"/>
+</svg>

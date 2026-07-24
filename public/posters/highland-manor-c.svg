@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img">
+  <defs>
+    <linearGradient id="g_highlandmanorc_sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(255 35% 32%)"/>
+      <stop offset="1" stop-color="hsl(30 55% 74%)"/>
+    </linearGradient>
+    <radialGradient id="g_highlandmanorc_sun" cx="0.64" cy="0.42" r="0.5">
+      <stop offset="0" stop-color="hsl(28 80% 72% / 0.95)"/>
+      <stop offset="0.4" stop-color="hsl(28 80% 72% / 0.35)"/>
+      <stop offset="1" stop-color="hsl(28 80% 72% / 0)"/>
+    </radialGradient>
+    <linearGradient id="g_highlandmanorc_vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(0 0% 0% / 0.18)"/>
+      <stop offset="0.35" stop-color="hsl(0 0% 0% / 0)"/>
+      <stop offset="1" stop-color="hsl(128 40% 6% / 0.35)"/>
+    </linearGradient>
+    <pattern id="g_highlandmanorc_grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="hsl(0 0% 100% / 0)"/>
+      <circle cx="1" cy="1" r="0.5" fill="hsl(0 0% 100% / 0.05)"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#g_highlandmanorc_sky)"/>
+  <rect width="1200" height="900" fill="url(#g_highlandmanorc_sun)"/>
+  <circle cx="769.31" cy="378" r="46" fill="hsl(28 80% 80% / 0.9)"/>
+
+  <path d="M0,900 L0,454 L0,438.35 L200,402.04 L400,432.41 L600,479.93 L800,453.42 L1000,406.85 L1200,405.9 L1200,454 L1200,900 Z" fill="hsl(128 24% 30% / 0.9)"/><path d="M0,900 L0,521.44 L0,468.83 L200,509.35 L400,543.92 L600,534.79 L800,477.66 L1000,479.71 L1200,494 L1200,521.44 L1200,900 Z" fill="hsl(128 24% 25% / 0.9)"/><path d="M0,900 L0,593.48 L0,561.94 L200,611.61 L400,615.03 L600,569.31 L800,554.55 L1000,576.38 L1200,597.79 L1200,593.48 L1200,900 Z" fill="hsl(128 24% 20% / 0.9)"/>
+  <rect x="0" y="648" width="1200" height="252" fill="hsl(128 26% 12%)"/>
+  <g><rect x="375.25" y="492.02" width="509.86" height="155.98" fill="hsl(128 24% 13%)"/><rect x="430.06" y="375.21" width="254.93" height="116.81" fill="hsl(128 22% 16%)"/><rect x="357.25" y="484.02" width="545.86" height="8" fill="hsl(128 30% 22%)"/><rect x="389.25" y="506.02" width="85.17" height="56.99" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="389.25" y="577.01" width="85.17" height="56.99" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="488.42" y="506.02" width="85.17" height="56.99" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="488.42" y="577.01" width="85.17" height="56.99" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="587.59" y="506.02" width="85.17" height="56.99" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="587.59" y="577.01" width="85.17" height="56.99" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="686.76" y="506.02" width="85.17" height="56.99" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="686.76" y="577.01" width="85.17" height="56.99" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="785.93" y="506.02" width="85.17" height="56.99" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="785.93" y="577.01" width="85.17" height="56.99" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="444.06" y="389.21" width="106.46" height="37.4" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="444.06" y="440.62" width="106.46" height="37.4" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="564.53" y="389.21" width="106.46" height="37.4" rx="2" fill="hsl(45 90% 72% / 0.92)"/><rect x="564.53" y="440.62" width="106.46" height="37.4" rx="2" fill="hsl(45 90% 72% / 0.92)"/></g>
+  <g>
+    <rect x="183.16" y="598.35" width="9.82" height="55.65" fill="hsl(128 30% 14%)"/>
+    <circle cx="188.07131281122565" cy="578.71" r="42.55" fill="hsl(128 34% 18%)"/>
+    <circle cx="158.61" cy="598.35" r="29.46" fill="hsl(128 34% 16%)"/>
+    <circle cx="214.26" cy="595.08" r="32.73" fill="hsl(128 34% 17%)"/>
+  </g><g>
+    <rect x="990.47" y="611.35" width="7.53" height="42.65" fill="hsl(128 30% 14%)"/>
+    <circle cx="994.2287633754313" cy="596.3" r="32.61" fill="hsl(128 34% 18%)"/>
+    <circle cx="971.65" cy="611.35" r="22.58" fill="hsl(128 34% 16%)"/>
+    <circle cx="1014.3" cy="608.84" r="25.09" fill="hsl(128 34% 17%)"/>
+  </g><g>
+    <rect x="988.63" y="608.64" width="8.01" height="45.36" fill="hsl(128 30% 14%)"/>
+    <circle cx="992.6364506222308" cy="592.63" r="34.69" fill="hsl(128 34% 18%)"/>
+    <circle cx="968.62" cy="608.64" r="24.02" fill="hsl(128 34% 16%)"/>
+    <circle cx="1013.98" cy="605.97" r="26.68" fill="hsl(128 34% 17%)"/>
+  </g><g>
+    <rect x="1116.93" y="621.37" width="5.76" height="32.63" fill="hsl(128 30% 14%)"/>
+    <circle cx="1119.8073367215693" cy="609.85" r="24.95" fill="hsl(128 34% 18%)"/>
+    <circle cx="1102.53" cy="621.37" r="17.28" fill="hsl(128 34% 16%)"/>
+    <circle cx="1135.16" cy="619.45" r="19.2" fill="hsl(128 34% 17%)"/>
+  </g>
+  <g>
+    <rect x="0" y="656" width="1200" height="244" fill="hsl(128 30% 10%)"/>
+    <ellipse cx="600" cy="726" rx="504" ry="70" fill="hsl(128 45% 30% / 0.9)"/>
+    <rect x="192" y="690" width="816" height="10" fill="hsl(24 70% 70% / 0.55)" opacity="0.7"/>
+    <rect x="264" y="720" width="672" height="6" fill="hsl(24 70% 70% / 0.55)" opacity="0.5"/>
+  </g>
+
+  <rect width="1200" height="900" fill="url(#g_highlandmanorc_grain)"/>
+  <rect width="1200" height="900" fill="url(#g_highlandmanorc_vig)"/>
+</svg>
