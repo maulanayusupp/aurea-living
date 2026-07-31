@@ -1,9 +1,9 @@
 <script setup lang="ts">
-// Closing call-to-action. Emerald canvas, gold headline accent, WhatsApp +
+// Closing call-to-action. Emerald canvas, gold headline accent, email +
 // contact-page CTAs. Reused on home and inner pages.
 const { t } = useI18n()
 const localePath = useLocalePath()
-const { whatsappUrl } = useContact()
+const { emailUrl } = useContact()
 </script>
 
 <template>
@@ -17,7 +17,7 @@ const { whatsappUrl } = useContact()
       </h2>
       <p class="cta__lead">{{ t('ctaBand.lead') }}</p>
       <div class="cta__actions">
-        <BaseButton :href="whatsappUrl()" size="lg" icon="whatsapp">{{ t('cta.whatsapp') }}</BaseButton>
+        <BaseButton :href="emailUrl()" size="lg" icon="mail">{{ t('cta.email') }}</BaseButton>
         <BaseButton :to="localePath('/contact')" variant="outline" size="lg" class="cta__alt">
           {{ t('cta.contactUs') }}
         </BaseButton>

@@ -7,7 +7,7 @@
     },
     "residences": {
       "title": "The Collection",
-      "description": "Explore Aurea Living's twelve curated residences. Filter by collection, price, and bedrooms, then enquire directly on WhatsApp."
+      "description": "Explore Aurea Living's twelve curated residences. Filter by collection, price, and bedrooms, then enquire directly by email."
     },
     "about": {
       "title": "About Us",
@@ -15,7 +15,7 @@
     },
     "contact": {
       "title": "Contact Us",
-      "description": "Speak with the Aurea Living team via WhatsApp, phone, or email. We are glad to help you find the right home."
+      "description": "Speak with the Aurea Living team by email. We are glad to help you find the right home."
     },
     "compliance": {
       "title": "Compliance & Disclosure",
@@ -43,13 +43,11 @@
     "close": "Close menu"
   },
   "cta": {
-    "whatsapp": "Chat on WhatsApp",
     "consult": "Consult us",
     "explore": "Explore the Collection",
     "details": "Details",
     "inquire": "Enquire",
-    "inquireWhatsApp": "Enquire via WhatsApp",
-    "call": "Call",
+    "inquireEmail": "Enquire by Email",
     "email": "Email",
     "talkAdvisor": "Talk to an Advisor",
     "contactUs": "Contact Us",
@@ -159,7 +157,7 @@
     "eyebrow": "Let's begin",
     "title": "Find a home that feels",
     "titleEm": "like yours.",
-    "lead": "Tell us what you need on WhatsApp. Our team will help you choose the right home — patiently, and without pressure.",
+    "lead": "Tell us what you need by email. Our team will help you choose the right home — patiently, and without pressure.",
     "contactUs": "Contact Us"
   },
   "footer": {
@@ -174,19 +172,18 @@
     "title": "Let's talk",
     "lead": "We are here to help you find the right home. Reach us through your preferred channel.",
     "reachTitle": "Contact channels",
-    "reachLead": "WhatsApp is the fastest way to reach our team.",
+    "reachLead": "Email is the fastest way to reach our team.",
     "hours": "Monday–Saturday, 9am–6pm (WIB)",
     "formTitle": "Send an enquiry",
-    "formLead": "Fill in the form and we'll forward it via WhatsApp or email — your choice.",
+    "formLead": "Fill in the form and we'll compose it into an email for you to send.",
     "channels": {
       "instagram": "Instagram",
-      "whatsapp": "WhatsApp",
-      "phone": "Phone",
       "email": "Email",
       "location": "Location"
     },
-    "wa": {
+    "mail": {
       "general": "Hello Aurea Living, I'd like to know more about your collection of homes.",
+      "generalSubject": "Enquiry about Aurea Living",
       "inquiry": "Hello Aurea Living, I'm interested in {name} ({collection}). Could I get more details? {url}"
     },
     "email": {
@@ -202,9 +199,8 @@
     "message": "Message",
     "messagePlaceholder": "Tell us about the home you're looking for…",
     "error": "Please fill in your name and message first.",
-    "sendWhatsApp": "Send via WhatsApp",
     "sendEmail": "Send via Email",
-    "privacyNote": "On submit, you'll be taken to WhatsApp or your email app. We don't store any data on this site.",
+    "privacyNote": "On submit, you'll be taken to your email app. We don't store any data on this site.",
     "template": "Hello Aurea Living,\n\nName: {name}\nPhone: {phone}\nInterested in: {interest}\n\n{message}",
     "emailSubject": "Enquiry from the Aurea Living website"
   },
@@ -337,7 +333,7 @@
   "residences": {
     "eyebrow": "The Collection",
     "title": "Find your residence",
-    "lead": "Twelve curated homes across four collections. Filter to your needs, then enquire directly on WhatsApp."
+    "lead": "Twelve curated homes across four collections. Filter to your needs, then enquire directly by email."
   },
   "detail": {
     "back": "Back to the collection",
@@ -348,7 +344,7 @@
     "priceNote": "Indicative price. Final details are discussed with an advisor.",
     "built": "Built area",
     "land": "Land area",
-    "advisor": "Fast response on WhatsApp during working hours · {phone}"
+    "advisor": "We reply by email during working hours · {email}"
   },
   "about": {
     "eyebrow": "About Aurea Living",
@@ -395,11 +391,11 @@
       },
       "data": {
         "title": "Data handling",
-        "body": "This site does not store your personal data on our servers. When you send an enquiry, the information is forwarded directly via WhatsApp or your chosen email app.\nFurther details are available on the Privacy Policy page."
+        "body": "This site does not store your personal data on our servers. When you send an enquiry, the information is forwarded directly through your own email app.\nFurther details are available on the Privacy Policy page."
       },
       "payments": {
         "title": "Enquiries & transactions",
-        "body": "This site does not process online payments. All enquiries and commercial discussions happen directly via WhatsApp, phone, or email with our team.\nEvery transaction step is handled directly and transparently."
+        "body": "This site does not process online payments. All enquiries and commercial discussions happen directly by email with our team.\nEvery transaction step is handled directly and transparently."
       },
       "imagery": {
         "title": "Imagery & visuals",
@@ -418,11 +414,11 @@
     "sections": {
       "collect": {
         "title": "Data we receive",
-        "body": "This site has no forms that store data on a server. When you use the contact form, the details you enter are composed into a message and sent via WhatsApp or your own email app.\nSo your data only travels through the channel you choose."
+        "body": "This site has no forms that store data on a server. When you use the contact form, the details you enter are composed into a message and sent from your own email app.\nSo your data only travels through your own mailbox."
       },
       "use": {
         "title": "Use of data",
-        "body": "Information you send via WhatsApp or email is used solely to respond to your enquiry and help with choosing a home."
+        "body": "Information you send by email is used solely to respond to your enquiry and help with choosing a home."
       },
       "share": {
         "title": "Sharing data",
@@ -434,7 +430,7 @@
       },
       "rights": {
         "title": "Your rights",
-        "body": "Because we do not store your data on this site, you keep full control over the WhatsApp or email conversation. You can delete it from your device at any time."
+        "body": "Because we do not store your data on this site, you keep full control over the email conversation. You can delete it from your device at any time."
       },
       "contact": {
         "title": "Privacy questions",
@@ -457,7 +453,7 @@
       },
       "inquiries": {
         "title": "Enquiries",
-        "body": "Enquiries sent through the site are forwarded via WhatsApp or email. Responses are provided at the team's availability during working hours."
+        "body": "Enquiries sent through the site are forwarded by email. Responses are provided at the team's availability during working hours."
       },
       "ip": {
         "title": "Intellectual property",

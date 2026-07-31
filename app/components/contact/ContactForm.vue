@@ -1,9 +1,9 @@
 <script setup lang="ts">
 // Contact form. There is no server backend: on submit we compose the enquiry
-// into a WhatsApp (primary) or email message and hand off to that channel. This
-// is honest about how enquiries are actually received — no data is stored.
+// into an email and hand off to the visitor's own mail app. This is honest
+// about how enquiries are actually received — no data is stored.
 const { t } = useI18n()
-const { whatsappUrl, mailto } = useContact()
+const { mailto } = useContact()
 
 const form = reactive({ name: '', phone: '', interest: 'villa', message: '' })
 const touched = ref(false)
@@ -19,12 +19,6 @@ function composedMessage() {
   })
 }
 
-function sendWhatsApp() {
-  touched.value = true
-  if (!valid.value) return
-  window.open(whatsappUrl(composedMessage()), '_blank', 'noopener')
-}
-
 function sendEmail() {
   touched.value = true
   if (!valid.value) return
@@ -33,7 +27,7 @@ function sendEmail() {
 </script>
 
 <template>
-  <form class="cform" novalidate @submit.prevent="sendWhatsApp">
+  <form class="cform" novalidate @submit.prevent="sendEmail">
     <div class="cform__row">
       <label class="cfield">
         <span class="cfield__label">{{ t('contactForm.name') }} *</span>
@@ -83,10 +77,7 @@ function sendEmail() {
     <p v-if="touched && !valid" class="cform__error">{{ t('contactForm.error') }}</p>
 
     <div class="cform__actions">
-      <BaseButton type="submit" icon="whatsapp">{{ t('contactForm.sendWhatsApp') }}</BaseButton>
-      <BaseButton type="button" variant="outline" icon="mail" @click="sendEmail">
-        {{ t('contactForm.sendEmail') }}
-      </BaseButton>
+      <BaseButton type="submit" icon="mail">{{ t('contactForm.sendEmail') }}</BaseButton>
     </div>
     <p class="cform__note">{{ t('contactForm.privacyNote') }}</p>
   </form>

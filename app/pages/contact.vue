@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// Contact page — channels + enquiry form (WhatsApp/email hand-off, no backend).
+// Contact page — channels + enquiry form (email hand-off, no backend).
 const { t } = useI18n()
 
 usePageSeo(

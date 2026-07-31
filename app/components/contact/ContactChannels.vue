@@ -1,14 +1,12 @@
 <script setup lang="ts">
-// Contact channel cards for the contact page: WhatsApp, phone, email, location.
+// Contact channel cards for the contact page: email, location.
 import { getBrand } from '~/services/content.service'
 
 const { t } = useI18n()
-const { whatsappUrl, tel, mailto, email, phone } = useContact()
+const { mailto, email } = useContact()
 const brand = getBrand()
 
 const channels = computed(() => [
-  { id: 'whatsapp', icon: 'whatsapp', label: t('contact.channels.whatsapp'), value: phone, href: whatsappUrl(), external: true },
-  { id: 'phone', icon: 'phone', label: t('contact.channels.phone'), value: phone, href: tel(), external: false },
   { id: 'email', icon: 'mail', label: t('contact.channels.email'), value: email, href: mailto(), external: false },
   { id: 'location', icon: 'map-pin', label: t('contact.channels.location'), value: `${brand.city}, ${brand.country}`, href: '', external: false },
 ])

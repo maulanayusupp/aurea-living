@@ -7,7 +7,7 @@ import { getFeaturedProperties } from '~/services/property.service'
 const { t } = useI18n()
 const localePath = useLocalePath()
 const { price, area } = useFormat()
-const { whatsappUrl } = useContact()
+const { emailUrl } = useContact()
 
 const featured = getFeaturedProperties(4)
 const index = ref(0)
@@ -72,7 +72,7 @@ const parallaxVars = computed(() => ({
           <BaseButton :to="localePath('/residences')" size="lg" icon-right="arrow-right">
             {{ t('cta.explore') }}
           </BaseButton>
-          <BaseButton :href="whatsappUrl()" variant="outline" size="lg" icon="whatsapp">
+          <BaseButton :href="emailUrl()" variant="outline" size="lg" icon="mail">
             {{ t('cta.consult') }}
           </BaseButton>
         </div>

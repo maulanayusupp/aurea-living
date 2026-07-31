@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // Privacy page. Reflects the actual (minimal) data flow: enquiries are handed
-// off to WhatsApp/email; the site itself stores no personal data server-side.
+// off to email; the site itself stores no personal data server-side.
 import { getLegalSections } from '~/services/content.service'
 import type { LegalSection } from '~/types'
 

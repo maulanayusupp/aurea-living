@@ -85,8 +85,6 @@ export default defineNuxtConfig({
     public: {
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://aurea-living.vercel.app',
       contactEmail: process.env.NUXT_PUBLIC_CONTACT_EMAIL || 'maulanayusupp@gmail.com',
-      whatsapp: process.env.NUXT_PUBLIC_WHATSAPP || '6287822766333',
-      contactPhone: process.env.NUXT_PUBLIC_CONTACT_PHONE || '+62 878-2276-6333',
     },
   },
 

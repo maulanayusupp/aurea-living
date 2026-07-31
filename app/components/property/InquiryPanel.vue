@@ -1,17 +1,13 @@
 <script setup lang="ts">
 // Sticky inquiry panel on the property detail page. Shows price + a compact
-// spec summary and the commerce CTAs: WhatsApp inquiry (primary), call, email.
+// spec summary and the enquiry CTA: a pre-filled email about this property.
 import type { Property } from '~/types'
 
 const props = defineProps<{ property: Property }>()
 
 const { t } = useI18n()
 const { price, area } = useFormat()
-const { whatsappInquiry, tel, mailto, phone } = useContact()
-
-const emailSubject = computed(() =>
-  t('contact.email.subject', { name: t(`properties.items.${props.property.id}.name`) }),
-)
+const { emailInquiry, email } = useContact()
 </script>
 
 <template>
@@ -32,20 +28,14 @@ const emailSubject = computed(() =>
     </dl>
 
     <div class="inquiry__actions">
-      <BaseButton :href="whatsappInquiry(property)" variant="primary" icon="whatsapp" block>
-        {{ t('cta.inquireWhatsApp') }}
+      <BaseButton :href="emailInquiry(property)" variant="primary" icon="mail" block>
+        {{ t('cta.inquireEmail') }}
       </BaseButton>
-      <div class="inquiry__row">
-        <BaseButton :href="tel()" variant="outline" size="sm" icon="phone">{{ t('cta.call') }}</BaseButton>
-        <BaseButton :href="mailto(emailSubject)" variant="outline" size="sm" icon="mail">
-          {{ t('cta.email') }}
-        </BaseButton>
-      </div>
     </div>
 
     <p class="inquiry__advisor">
       <BaseIcon name="clock" :size="16" />
-      {{ t('detail.advisor', { phone }) }}
+      {{ t('detail.advisor', { email }) }}
     </p>
   </aside>
 </template>
@@ -118,16 +108,6 @@ const emailSubject = computed(() =>
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-}
-
-.inquiry__row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.6rem;
-
-  :deep(.btn) {
-    width: 100%;
-  }
 }
 
 .inquiry__advisor {

@@ -10,8 +10,8 @@
 **luxury property marketing + e-commerce** site: a curated collection of villas,
 residences, penthouses, and estates. It is built to feel premium, editorial, and
 interactive, and to convert interest into conversations. The "commerce" channel
-is **WhatsApp** (appropriate for high-value property, not a cart/checkout): every
-listing has an *Enquire via WhatsApp* CTA that opens a pre-filled message.
+is **email** (appropriate for high-value property, not a cart/checkout): every
+listing has an *Enquire by Email* CTA that opens a pre-filled message.
 
 - **Aesthetic:** Editorial Light Luxury — ivory paper, deep emerald ink,
   champagne gold accent; serif display (Cormorant Garamond) + sans body (Manrope).
@@ -59,11 +59,11 @@ app/
     home/                 # HeroShowcase, StatsBand, FeaturedCollection,
                           #   ExperienceStrip, ProcessSteps, TestimonialBand, CtaBand
     property/             # PropertyCard, PropertyGrid, PropertyFilters,
-                          #   PropertyGallery, InquiryPanel, WhatsAppFab
+                          #   PropertyGallery, InquiryPanel, ContactFab
     contact/              # ContactForm, ContactChannels
   composables/            # usePageSeo, useFormat, useContact, useReveal, usePropertyFilters
   config/                 # brand/navigation/properties/experience/legal (STRUCTURE, not text)
-  layouts/default.vue     # header + <slot> + footer + floating WhatsApp
+  layouts/default.vue     # header + <slot> + footer + floating email FAB
   pages/                  # index, residences/index, residences/[slug],
                           #   about, contact, compliance, privacy, terms
   services/               # content.service, property.service, contact.service
@@ -88,11 +88,12 @@ names don't appear in tags: `<BaseButton>`, `<PropertyCard>`, etc.
 - **Structure vs. text.** `config/*` holds structure (ids, prices, areas, media
   paths, hues, routes). All human-readable strings live in i18n by key.
 - **Helpers = composables.** `usePageSeo`, `useFormat` (locale currency/area),
-  `useContact` (WhatsApp/mailto/tel deep-links), `useReveal` (scroll reveal),
+  `useContact` (mailto deep-links), `useReveal` (scroll reveal),
   `usePropertyFilters` (URL-synced catalogue state).
-- **Commerce = WhatsApp.** `useContact().whatsappInquiry(property)` builds a
-  localized, pre-filled `wa.me` message. Number/email/phone come from
-  `runtimeConfig.public` (env: `NUXT_PUBLIC_WHATSAPP`, etc.). No server cart.
+- **Commerce = email.** `useContact().emailInquiry(property)` builds a
+  localized, pre-filled `mailto:` message. The address comes from
+  `runtimeConfig.public` (env: `NUXT_PUBLIC_CONTACT_EMAIL`). No server cart,
+  no phone/WhatsApp channel.
 
 ## Styling (SCSS, no inline CSS — hard rule)
 
@@ -116,10 +117,10 @@ names don't appear in tags: `<BaseButton>`, `<PropertyCard>`, etc.
 - Locales in `i18n/locales/{en,id}.json`; **ID is the default** (no prefix),
   EN lives under `/en/*` (`strategy: 'prefix_except_default'`).
 - Keys mirror page/section structure. **Keep EN and ID in lockstep** — same keys,
-  no missing translations (296 keys each; verify with a parity check).
+  no missing translations (292 keys each; verify with a parity check).
 - Property copy lives under `properties.items.<id>.{name,location,description,detail}`.
-- Interpolations: `{name}`, `{collection}`, `{url}`, `{phone}`, `{count}`,
-  and the form/WA `template` strings. A literal `@` must be escaped `{'@'}`.
+- Interpolations: `{name}`, `{collection}`, `{url}`, `{email}`, `{count}`,
+  and the form/mail `template` strings. A literal `@` must be escaped `{'@'}`.
 
 ## SEO
 
@@ -131,12 +132,12 @@ names don't appear in tags: `<BaseButton>`, `<PropertyCard>`, etc.
 - Sitemap/robots by `@nuxtjs/seo`; dynamic property routes added through
   `server/api/__sitemap__/urls.ts` (i18n adds locale variants + hreflang).
 - Site URL from `NUXT_PUBLIC_SITE_URL` (default `https://aurea-living.vercel.app`).
-- **Link previews (WhatsApp / Instagram / Facebook / X).** `usePageSeo` sets
+- **Link previews (Instagram / Facebook / X / messengers).** `usePageSeo` sets
   absolute `og:image` (+ `og:image:width/height/type/alt`) and Twitter tags;
   `@nuxtjs/seo` adds `og:url`, `og:site_name`, `og:locale`, canonical. **og:image
   must be a raster PNG** — crawlers do not render SVG. Home uses
   `public/og-image.png`; detail pages use `public/og/<slug>.png` (per-property
-  cards, ~230 KB, under WhatsApp's limit). Dynamic OG-image *rendering* stays
+  cards, ~230 KB, within common crawler limits). Dynamic OG-image *rendering* stays
   disabled (no bundled native renderer); we ship pre-generated PNGs instead.
 
 ## Imagery
@@ -150,7 +151,7 @@ names don't appear in tags: `<BaseButton>`, `<PropertyCard>`, etc.
   listing to a hero + 2 gallery photos via `photo(hero, ...gallery)`.
 - Per-property **OG cards** (`public/og/<slug>.jpg`, `scripts/generate-og.mjs`)
   composite the real hero photo + brand + name/location/price for link previews
-  (JPEG, ~120–160 KB, under WhatsApp's limit). The script's property list
+  (JPEG, ~120–160 KB, within common crawler limits). The script's property list
   (slug/id/collection/price/**hero**) must stay in sync with
   `properties.config.ts`; names/locations are read from the ID locale.
 - The `Property.hue` field is currently unused by the UI (legacy from the earlier

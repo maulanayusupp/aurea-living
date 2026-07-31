@@ -1,7 +1,7 @@
 <script setup lang="ts">
 // Property listing card. Poster image, status/collection badges, name, location,
-// price, key specs, and a WhatsApp inquiry CTA. Whole card links to the detail
-// page; the CTA opens WhatsApp with a pre-filled message.
+// price, key specs, and an email inquiry CTA. Whole card links to the detail
+// page; the CTA opens the visitor's email app with a pre-filled message.
 import type { Property } from '~/types'
 
 const props = defineProps<{ property: Property }>()
@@ -9,7 +9,7 @@ const props = defineProps<{ property: Property }>()
 const { t } = useI18n()
 const localePath = useLocalePath()
 const { price, area } = useFormat()
-const { whatsappInquiry } = useContact()
+const { emailInquiry } = useContact()
 
 const detailPath = computed(() => localePath(`/residences/${props.property.slug}`))
 const statusTone = computed(() =>
@@ -58,10 +58,10 @@ const statusTone = computed(() =>
           {{ t('cta.details') }}
         </BaseButton>
         <BaseButton
-          :href="whatsappInquiry(property)"
+          :href="emailInquiry(property)"
           variant="primary"
           size="sm"
-          icon="whatsapp"
+          icon="mail"
         >
           {{ t('cta.inquire') }}
         </BaseButton>

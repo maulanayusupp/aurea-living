@@ -9,10 +9,10 @@ legal pages, and **both** i18n locales as required by the project rules.
       (`public/properties/`, `pnpm photos`). Next: replace the shared stock set
       with official per-property photography (unique gallery per listing).
 - [x] **Per-property OG images.** `pnpm og` composes poster + brand + name/price
-      into `public/og/<slug>.png` for WhatsApp/Instagram link previews.
+      into `public/og/<slug>.png` for social/messenger link previews.
 - [ ] **Map on detail pages.** Optional static map image or embed per location.
 - [ ] **Saved / shortlist.** Let visitors bookmark residences (localStorage), with
-      a combined WhatsApp enquiry for the whole shortlist.
+      a combined email enquiry for the whole shortlist.
 - [ ] **Filter polish.** Add an area (m²) range and a "ready to move in" toggle;
       persist scroll position when navigating back from a detail page.
 
@@ -33,11 +33,11 @@ legal pages, and **both** i18n locales as required by the project rules.
 - [ ] `pnpm typecheck` in CI; add `vue-tsc` to a lint/build workflow.
 - [ ] Enable dynamic OG-image rendering once a bundled renderer is acceptable.
 
-## Commerce (WhatsApp-first)
+## Commerce (email-first)
 
 - [ ] Optional lead capture: a lightweight serverless endpoint to log enquiries
       (update the privacy + compliance pages and both locales if added).
-- [ ] Track WhatsApp CTA clicks (privacy-respecting analytics) to measure interest.
+- [ ] Track email CTA clicks (privacy-respecting analytics) to measure interest.
 
 ## Ideas (nice to have)
 

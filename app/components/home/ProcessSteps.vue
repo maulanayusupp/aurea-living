@@ -1,10 +1,10 @@
 <script setup lang="ts">
 // The acquisition journey — four honest steps. No financial/legal guarantees;
-// framed as guidance, with a WhatsApp advisor CTA.
+// framed as guidance, with an email advisor CTA.
 import { getJourneySteps } from '~/services/content.service'
 
 const { t } = useI18n()
-const { whatsappUrl } = useContact()
+const { emailUrl } = useContact()
 const steps = getJourneySteps()
 const { root } = useReveal()
 </script>
@@ -18,7 +18,7 @@ const { root } = useReveal()
           :title="t('journey.title')"
           :lead="t('journey.lead')"
         />
-        <BaseButton :href="whatsappUrl()" variant="dark" icon="whatsapp" class="process__cta">
+        <BaseButton :href="emailUrl()" variant="dark" icon="mail" class="process__cta">
           {{ t('cta.talkAdvisor') }}
         </BaseButton>
       </div>

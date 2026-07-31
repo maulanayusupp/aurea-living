@@ -1,8 +1,8 @@
 <script setup lang="ts">
-// Floating WhatsApp button — the primary commerce channel. Appears after the
-// user scrolls past the hero. Fixed, above content, keyboard-accessible.
+// Floating email button — the primary (and only) enquiry channel. Appears after
+// the user scrolls past the hero. Fixed, above content, keyboard-accessible.
 const { t } = useI18n()
-const { whatsappUrl } = useContact()
+const { emailUrl } = useContact()
 
 const visible = ref(false)
 function onScroll() {
@@ -19,14 +19,12 @@ onBeforeUnmount(() => window.removeEventListener('scroll', onScroll))
   <transition name="fab">
     <a
       v-show="visible"
-      :href="whatsappUrl()"
+      :href="emailUrl()"
       class="fab"
-      target="_blank"
-      rel="noopener noreferrer"
-      :aria-label="t('cta.whatsapp')"
+      :aria-label="t('cta.contactUs')"
     >
-      <BaseIcon name="whatsapp" :size="26" />
-      <span class="fab__label">{{ t('cta.whatsapp') }}</span>
+      <BaseIcon name="mail" :size="26" />
+      <span class="fab__label">{{ t('cta.contactUs') }}</span>
     </a>
   </transition>
 </template>
@@ -42,8 +40,8 @@ onBeforeUnmount(() => window.removeEventListener('scroll', onScroll))
   gap: 0.6rem;
   padding: 0.85rem;
   border-radius: var(--radius-pill);
-  background: #1fa855;
-  color: #fff;
+  background: var(--color-emerald-800);
+  color: var(--color-on-dark);
   box-shadow: var(--shadow-lg);
   transition: padding var(--dur) var(--ease-out), transform var(--dur) var(--ease-out);
 

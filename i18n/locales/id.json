@@ -7,7 +7,7 @@
     },
     "residences": {
       "title": "Koleksi Hunian",
-      "description": "Jelajahi 12 hunian pilihan Aurea Living. Saring berdasarkan koleksi, harga, dan jumlah kamar, lalu ajukan pertanyaan langsung melalui WhatsApp."
+      "description": "Jelajahi 12 hunian pilihan Aurea Living. Saring berdasarkan koleksi, harga, dan jumlah kamar, lalu ajukan pertanyaan langsung melalui email."
     },
     "about": {
       "title": "Tentang Kami",
@@ -15,7 +15,7 @@
     },
     "contact": {
       "title": "Hubungi Kami",
-      "description": "Bicaralah dengan tim Aurea Living melalui WhatsApp, telepon, atau email. Kami senang membantu Anda menemukan hunian yang tepat."
+      "description": "Bicaralah dengan tim Aurea Living melalui email. Kami senang membantu Anda menemukan hunian yang tepat."
     },
     "compliance": {
       "title": "Kepatuhan & Keterbukaan",
@@ -43,13 +43,11 @@
     "close": "Tutup menu"
   },
   "cta": {
-    "whatsapp": "Chat WhatsApp",
     "consult": "Konsultasi",
     "explore": "Jelajahi Koleksi",
     "details": "Detail",
     "inquire": "Tanya",
-    "inquireWhatsApp": "Tanya via WhatsApp",
-    "call": "Telepon",
+    "inquireEmail": "Tanya via Email",
     "email": "Email",
     "talkAdvisor": "Bicara dengan Penasihat",
     "contactUs": "Hubungi Kami",
@@ -159,7 +157,7 @@
     "eyebrow": "Mari mulai",
     "title": "Temukan hunian yang terasa",
     "titleEm": "seperti rumah.",
-    "lead": "Ceritakan kebutuhan Anda melalui WhatsApp. Tim kami akan membantu memilih hunian yang paling tepat — dengan sabar dan tanpa tekanan.",
+    "lead": "Ceritakan kebutuhan Anda melalui email. Tim kami akan membantu memilih hunian yang paling tepat — dengan sabar dan tanpa tekanan.",
     "contactUs": "Hubungi Kami"
   },
   "footer": {
@@ -174,19 +172,18 @@
     "title": "Mari berbicara",
     "lead": "Kami di sini untuk membantu Anda menemukan hunian yang tepat. Hubungi kami melalui kanal favorit Anda.",
     "reachTitle": "Kanal kontak",
-    "reachLead": "WhatsApp adalah cara tercepat untuk terhubung dengan tim kami.",
+    "reachLead": "Email adalah cara tercepat untuk terhubung dengan tim kami.",
     "hours": "Senin–Sabtu, 09.00–18.00 WIB",
     "formTitle": "Kirim pertanyaan",
-    "formLead": "Isi formulir dan kami akan meneruskannya melalui WhatsApp atau email pilihan Anda.",
+    "formLead": "Isi formulir dan kami akan menyusunnya menjadi email siap kirim.",
     "channels": {
       "instagram": "Instagram",
-      "whatsapp": "WhatsApp",
-      "phone": "Telepon",
       "email": "Email",
       "location": "Lokasi"
     },
-    "wa": {
+    "mail": {
       "general": "Halo Aurea Living, saya ingin mengetahui lebih lanjut tentang koleksi hunian Anda.",
+      "generalSubject": "Pertanyaan tentang Aurea Living",
       "inquiry": "Halo Aurea Living, saya tertarik dengan {name} ({collection}). Boleh saya mendapat informasi lebih lengkap? {url}"
     },
     "email": {
@@ -202,9 +199,8 @@
     "message": "Pesan",
     "messagePlaceholder": "Ceritakan kebutuhan hunian Anda…",
     "error": "Mohon isi nama dan pesan Anda terlebih dahulu.",
-    "sendWhatsApp": "Kirim via WhatsApp",
     "sendEmail": "Kirim via Email",
-    "privacyNote": "Dengan mengirim, Anda akan diarahkan ke WhatsApp atau aplikasi email. Kami tidak menyimpan data di situs ini.",
+    "privacyNote": "Dengan mengirim, Anda akan diarahkan ke aplikasi email Anda. Kami tidak menyimpan data di situs ini.",
     "template": "Halo Aurea Living,\n\nNama: {name}\nTelepon: {phone}\nTertarik pada: {interest}\n\n{message}",
     "emailSubject": "Pertanyaan dari situs Aurea Living"
   },
@@ -337,7 +333,7 @@
   "residences": {
     "eyebrow": "Koleksi",
     "title": "Temukan hunian Anda",
-    "lead": "Dua belas hunian pilihan lintas empat koleksi. Saring sesuai kebutuhan, lalu ajukan pertanyaan langsung melalui WhatsApp."
+    "lead": "Dua belas hunian pilihan lintas empat koleksi. Saring sesuai kebutuhan, lalu ajukan pertanyaan langsung melalui email."
   },
   "detail": {
     "back": "Kembali ke koleksi",
@@ -348,7 +344,7 @@
     "priceNote": "Harga indikatif. Detail final dibahas bersama penasihat.",
     "built": "Luas bangunan",
     "land": "Luas lahan",
-    "advisor": "Respons cepat melalui WhatsApp di jam kerja · {phone}"
+    "advisor": "Kami membalas melalui email di jam kerja · {email}"
   },
   "about": {
     "eyebrow": "Tentang Aurea Living",
@@ -395,11 +391,11 @@
       },
       "data": {
         "title": "Penanganan data",
-        "body": "Situs ini tidak menyimpan data pribadi Anda di server kami. Ketika Anda mengirim pertanyaan, informasi diteruskan langsung melalui WhatsApp atau email pilihan Anda.\nRincian selengkapnya tersedia pada halaman Kebijakan Privasi."
+        "body": "Situs ini tidak menyimpan data pribadi Anda di server kami. Ketika Anda mengirim pertanyaan, informasi diteruskan langsung melalui aplikasi email Anda sendiri.\nRincian selengkapnya tersedia pada halaman Kebijakan Privasi."
       },
       "payments": {
         "title": "Pertanyaan & transaksi",
-        "body": "Situs ini tidak memproses pembayaran daring. Semua pertanyaan dan pembahasan komersial dilakukan langsung melalui WhatsApp, telepon, atau email bersama tim kami.\nSetiap langkah transaksi dilakukan secara langsung dan transparan."
+        "body": "Situs ini tidak memproses pembayaran daring. Semua pertanyaan dan pembahasan komersial dilakukan langsung melalui email bersama tim kami.\nSetiap langkah transaksi dilakukan secara langsung dan transparan."
       },
       "imagery": {
         "title": "Gambar & visual",
@@ -418,11 +414,11 @@
     "sections": {
       "collect": {
         "title": "Data yang kami terima",
-        "body": "Situs ini tidak memiliki formulir yang menyimpan data ke server. Ketika Anda menggunakan formulir kontak, informasi yang Anda isi disusun menjadi pesan dan dikirim melalui WhatsApp atau aplikasi email Anda sendiri.\nDengan demikian, data hanya berpindah melalui kanal yang Anda pilih."
+        "body": "Situs ini tidak memiliki formulir yang menyimpan data ke server. Ketika Anda menggunakan formulir kontak, informasi yang Anda isi disusun menjadi pesan dan dikirim dari aplikasi email Anda sendiri.\nDengan demikian, data hanya berpindah melalui kotak surat Anda sendiri."
       },
       "use": {
         "title": "Penggunaan data",
-        "body": "Informasi yang Anda kirimkan melalui WhatsApp atau email digunakan semata-mata untuk menanggapi pertanyaan Anda dan membantu proses pemilihan hunian."
+        "body": "Informasi yang Anda kirimkan melalui email digunakan semata-mata untuk menanggapi pertanyaan Anda dan membantu proses pemilihan hunian."
       },
       "share": {
         "title": "Berbagi data",
@@ -434,7 +430,7 @@
       },
       "rights": {
         "title": "Hak Anda",
-        "body": "Karena kami tidak menyimpan data Anda di situs ini, Anda memegang kendali penuh atas percakapan di WhatsApp atau email. Anda dapat menghapusnya kapan saja dari perangkat Anda."
+        "body": "Karena kami tidak menyimpan data Anda di situs ini, Anda memegang kendali penuh atas percakapan email tersebut. Anda dapat menghapusnya kapan saja dari perangkat Anda."
       },
       "contact": {
         "title": "Pertanyaan privasi",
@@ -457,7 +453,7 @@
       },
       "inquiries": {
         "title": "Pertanyaan",
-        "body": "Pertanyaan yang dikirim melalui situs diteruskan melalui WhatsApp atau email. Respons diberikan sesuai kesediaan tim pada jam kerja."
+        "body": "Pertanyaan yang dikirim melalui situs diteruskan melalui email. Respons diberikan sesuai kesediaan tim pada jam kerja."
       },
       "ip": {
         "title": "Kekayaan intelektual",

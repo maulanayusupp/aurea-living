@@ -29,12 +29,4 @@ export const socialChannels: ContactChannel[] = [
     value: '@aurea.living',
     href: 'https://instagram.com',
   },
-  {
-    id: 'whatsapp',
-    icon: 'whatsapp',
-    labelKey: 'contact.channels.whatsapp',
-    value: '+62 878-2276-6333',
-    href: '#',
-    primary: true,
-  },
 ]

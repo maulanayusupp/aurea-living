@@ -9,17 +9,12 @@ import {
 
 const { t } = useI18n()
 const localePath = useLocalePath()
-const { whatsappUrl, email, phone, mailto, tel } = useContact()
+const { email, mailto } = useContact()
 
 const brand = getBrand()
 const nav = getFooterNav()
 const social = getSocialChannels()
 const year = 2026 // build-time constant; avoids hydration mismatch from new Date()
-
-function channelHref(id: string) {
-  if (id === 'whatsapp') return whatsappUrl()
-  return social.find((s) => s.id === id)?.href ?? '#'
-}
 </script>
 
 <template>
@@ -32,9 +27,6 @@ function channelHref(id: string) {
         <div class="footer__contact">
           <a :href="mailto()" class="footer__contact-item">
             <BaseIcon name="mail" :size="18" />{{ email }}
-          </a>
-          <a :href="tel()" class="footer__contact-item">
-            <BaseIcon name="phone" :size="18" />{{ phone }}
           </a>
           <p class="footer__contact-item">
             <BaseIcon name="map-pin" :size="18" />{{ brand.city }}, {{ brand.country }}
@@ -59,7 +51,7 @@ function channelHref(id: string) {
         <a
           v-for="s in social"
           :key="s.id"
-          :href="channelHref(s.id)"
+          :href="s.href"
           class="footer__link footer__link--icon"
           target="_blank"
           rel="noopener noreferrer"
@@ -67,7 +59,7 @@ function channelHref(id: string) {
           <BaseIcon :name="s.icon" :size="18" />
           <span>{{ s.value }}</span>
         </a>
-        <BaseButton :href="whatsappUrl()" variant="primary" icon="whatsapp" class="footer__cta">
+        <BaseButton :href="mailto()" variant="primary" icon="mail" class="footer__cta">
           {{ t('cta.consult') }}
         </BaseButton>
       </div>

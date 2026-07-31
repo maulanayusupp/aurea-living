@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // Default layout: skip link + fixed header + page slot + footer + floating
-// WhatsApp button (primary commerce channel, always reachable).
+// email button (the enquiry channel, always reachable).
 const { t } = useI18n()
 </script>
 
@@ -12,7 +12,7 @@ const { t } = useI18n()
       <slot />
     </main>
     <AppFooter />
-    <WhatsAppFab />
+    <ContactFab />
   </div>
 </template>
 

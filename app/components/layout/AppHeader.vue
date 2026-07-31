@@ -3,12 +3,12 @@
 // dark emerald PageHero, so while the header floats transparently over that dark
 // hero it must use LIGHT text/logo. On the light homepage hero, or once scrolled
 // (frosted-glass ivory bar), it uses DARK text. Desktop nav + language switcher +
-// WhatsApp CTA; mobile slide-in menu.
+// email CTA; mobile slide-in menu.
 import { getPrimaryNav } from '~/services/content.service'
 
 const { t } = useI18n()
 const localePath = useLocalePath()
-const { whatsappUrl } = useContact()
+const { emailUrl } = useContact()
 const nav = getPrimaryNav()
 
 const scrolled = ref(false)
@@ -68,13 +68,13 @@ function target(item: { to: string; hash?: string }) {
       <div class="header__actions">
         <LanguageSwitcher class="header__lang" :tone="overDark ? 'light' : 'ink'" />
         <BaseButton
-          :href="whatsappUrl()"
+          :href="emailUrl()"
           :variant="overDark ? 'primary' : 'dark'"
           size="sm"
-          icon="whatsapp"
+          icon="mail"
           class="header__cta"
         >
-          {{ t('cta.whatsapp') }}
+          {{ t('cta.contactUs') }}
         </BaseButton>
         <button
           class="header__toggle"
@@ -102,8 +102,8 @@ function target(item: { to: string; hash?: string }) {
         </nav>
         <div class="drawer__footer">
           <LanguageSwitcher />
-          <BaseButton :href="whatsappUrl()" variant="primary" icon="whatsapp" block>
-            {{ t('cta.whatsapp') }}
+          <BaseButton :href="emailUrl()" variant="primary" icon="mail" block>
+            {{ t('cta.contactUs') }}
           </BaseButton>
         </div>
       </div>
